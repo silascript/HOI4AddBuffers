@@ -1,0 +1,37 @@
+ideas = {
+	
+	# 各种点数 buffer
+	buffer_points_ideas = {
+
+		# 政治点 buffer
+		buffer_polit_idea = {
+			on_add = {
+				# country_event = 
+			}
+		}
+
+
+		# 稳定度 buffer
+		buffer_st_idea = {
+			on_add = {
+				# country_event = 
+			}
+		}
+
+
+		# 战争支持度 buffer
+		buffer_ws_idea ={
+			on_add = {
+				# country_event = 
+			}
+		}
+
+		# 指挥点 buffer 
+		buffer_cp_idea = {
+			on_add = {
+				# country_event = 
+			}
+		}
+
+	}	# 各种点 buffer
+}

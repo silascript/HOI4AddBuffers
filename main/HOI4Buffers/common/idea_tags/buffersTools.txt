@@ -1,0 +1,23 @@
+idea_categories = {
+	
+	# 各种点数 buffer
+	# 政治点、指挥点、三军经验值
+	buffer_points_Idea = {
+
+		slot = buffer_points_ideas
+
+		cost = 0
+		removal_cost = 0
+	}
+
+
+	# 建造 buffer
+	buffer_build_Idea = {
+
+		# slot = 
+
+		cost = 0
+		removal_cost = 0
+	}
+
+}

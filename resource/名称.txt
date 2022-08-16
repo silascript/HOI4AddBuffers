@@ -1,0 +1,32 @@
+
+
+政治点：
+
+	每日获得：political_power_factor = 
+	每日花费：political_power_cost =
+	以百分比修正每日政治点获得(负数等于负增长)：political_power_factor =
+
+稳点度：
+	稳定度变更：stability_factor = 
+	每周稳定度变更：stability_weekly =
+	以百分比修正每周稳定度增长：stability_weekly_factor =
+
+
+
+战争度：
+
+
+指控点：
+陆军经验点：experience_gain_army = 
+海军经验点：experience_gain_navy = 
+空军经验点：experience_gain_air = 
+
+
+油耗：
+
+军舰油耗：navy_fuel_consumption_factor = -0.5
+飞机油耗：air_fuel_consumption_factor = -0.5
+
+建造：
+建造速度：production_speed_buildings_factor = 5
+工厂产出：production_factory_max_efficiency_factor = 1
