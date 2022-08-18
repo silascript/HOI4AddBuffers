@@ -2,31 +2,104 @@
 
 政治点：
 
-	每日获得：political_power_factor = 
-	每日花费：political_power_cost =
-	以百分比修正每日政治点获得(负数等于负增长)：political_power_factor =
+	每日获得政治点：political_power_gain 
+	每日花费政治点：political_power_cost 
+	以百分比修正每日获得政治点(负数等于负增长)：political_power_factor 
 
 稳点度：
-	稳定度变更：stability_factor = 
-	每周稳定度变更：stability_weekly =
-	以百分比修正每周稳定度增长：stability_weekly_factor =
+	稳定度变更： stability_factor  
+	每周稳定度变更： stability_weekly 
+	以百分比修正每周稳定度增长： stability_weekly_factor 
 
 
+战争支持度：
 
-战争度：
+	战争支持度： war_support_factor  
+	修正每周获得战争支持度： war_support_weekly 
+	以百分比修正每周获得战争支持度： war_support_weekly_factor 
 
 
-指控点：
-陆军经验点：experience_gain_army = 
-海军经验点：experience_gain_navy = 
-空军经验点：experience_gain_air = 
+征兵和人口：
+	增加适役人口的百分比： conscription
+	按百分比增加适役人口： conscription_factor
+	每周人口增长： weekly_manpower
 
+意识形态：
+	民主每日支持度增长点(两位小数)：democratic_drift
+	共产每日支持度增长点(两位小数)：communism_drift
+	法西斯每日支持度增长点(两位小数)：fascism_drift
+	中立每日支持度增长点(两位小数)：neutrality_drift
+
+	以百分比每日增长意识形态抵制度: drift_defence_factor
+
+////////////////////////军事///////////////////////////////
+
+指挥点：
+每日获得指挥点： command_power_gain
+以百分比每日获得指挥点： command_power_gain_mult
+
+三军经验：
+
+战斗中经验损失率： experience_loss_factor
+
+陆军：
+陆军经验点： experience_gain_army 
+
+海军：
+海军经验点： experience_gain_navy 
+
+空军：
+空军经验点： experience_gain_air  
+空军以百分比获得经验点： experience_gain_air_factor
+空军训练获得经验点： air_training_xp_gain_factor
+
+
+师增援率： land_reinforce_rate
+
+
+///////////////////////////////////////////////////////
+
+燃油：
+	每日燃油增长： fuel_gain
+	每日燃油以百分比增长：fuel_gain_factor
+	每日燃油消耗：fuel_cost
 
 油耗：
 
-军舰油耗：navy_fuel_consumption_factor = -0.5
-飞机油耗：air_fuel_consumption_factor = -0.5
+军舰油耗：navy_fuel_consumption_factor  两位小数
+飞机油耗：air_fuel_consumption_factor   两位小数
+
+
+
+///////////////////////////////////////////////////////
+
 
 建造：
-建造速度：production_speed_buildings_factor = 5
-工厂产出：production_factory_max_efficiency_factor = 1
+建造速度：production_speed_buildings_factor 
+建筑物修复速度：industry_repair_factor
+
+特定建筑建造速度：
+	基建建造速度： production_speed_infrastructure_factor
+	民工建造速度： production_speed_industrial_complex_factor
+	军工建造速度： production_speed_arms_factory_factor
+	船坞建造速度： production_speed_dockyard_factor
+	储油罐建造速度： production_speed_fuel_silo_factor
+	合成炼油厂建造速度： production_speed_synthetic_refinery_factor
+	海军基地建造速度： production_speed_naval_base_factor
+	雷达站建造速度： production_speed_radar_station_factor
+	空军基地建造速度： production_speed_air_base_factor
+	防空建筑建造速度： production_speed_anti_air_building_factor
+	地堡建造速度： production_speed_bunker_factor
+	海岸堡垒建造速度： production_speed_coastal_bunker_factor
+	火箭发射井建造速度： production_speed_rocket_site_factor
+	核反应堆建造速度： production_speed_nuclear_reactor_factor
+
+
+生活消费品工厂占比：consumer_goods_factor
+
+产出：
+工厂产出：production_factory_max_efficiency_factor 
+船坞产出：industrial_capacity_dockyard
+军工产出：industrial_capacity_factory
+
+合成燃油产出：production_oil_factor

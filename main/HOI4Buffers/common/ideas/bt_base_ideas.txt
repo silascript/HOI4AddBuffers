@@ -1,7 +1,7 @@
 ideas = {
 	
-	# 各种点数 buffer
-	buffer_points_ideas = {
+	# 基础点数 buffer
+	bt_base_ideas = {
 
 		# 政治点 buffer
 		buffer_polit_idea = {
@@ -33,5 +33,5 @@ ideas = {
 			}
 		}
 
-	}	# 各种点 buffer
+	}	# 基础点 buffer
 }

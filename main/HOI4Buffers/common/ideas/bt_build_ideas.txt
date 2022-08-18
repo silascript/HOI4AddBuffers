@@ -1,0 +1,32 @@
+ideas = {
+	
+	# 基础建筑 buffer 组
+	bt_build_base_ideas = {
+		# 基建速度	
+		bt_build_base_infrastructure = {
+			on_add = {
+				# country_event = 
+			}
+		}
+
+		# 民工建造速度
+		bt_build_base_industrial_complex = {
+			on_add = {
+				# country_event = 
+			}
+		}
+
+	}
+
+	# 产出 buffer 组
+	bt_build_production_ideas = {
+	
+	}
+
+	# 防御性建筑 buffer 组
+	bt_builder_defender_ideas = {
+
+	}
+
+
+}

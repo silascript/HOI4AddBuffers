@@ -1,10 +1,10 @@
 idea_categories = {
 	
-	# 各种点数 buffer
-	# 政治点、指挥点、三军经验值
-	buffer_points_Idea = {
+	# 基础点数 buffer 栏
+	# 政治点
+	buffer_base_Idea = {
 
-		slot = buffer_points_ideas
+		slot = bt_base_ideas
 
 		cost = 0
 		removal_cost = 0
@@ -15,6 +15,26 @@ idea_categories = {
 	buffer_build_Idea = {
 
 		# slot = 
+
+		# 基础建筑 buffer 组
+		slot = bt_build_base_ideas
+		# 产出 buffer 组
+		slot = bt_build_production_ideas
+		# 防御性建筑 buffer 组
+		slot = bt_build_defender_ideas
+
+		cost = 0
+		removal_cost = 0
+	}
+
+	# 军事 buffer
+	buffer_military_Idea = {
+
+		# 三军经验点 buffer 组
+		slot = bt_military_exp_ideas
+
+		# 指军点 buffer 组
+		slot = bt_military_command_ideas
 
 		cost = 0
 		removal_cost = 0

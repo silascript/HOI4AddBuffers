@@ -1,0 +1,15 @@
+
+# 军事 buffer 栏
+ideas = {
+	
+	# 三军经验 buffer 组
+	bt_military_exp_ideas = {
+
+	}	
+
+	# 指军点 buffer 组
+	bt_military_command_ideas = {
+	
+	}
+
+}
