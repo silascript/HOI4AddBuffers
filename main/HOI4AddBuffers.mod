@@ -2,6 +2,6 @@ version="1.0"
 tags={
 	"Utilities"
 }
-name="HOI4Buffers"
+name="HOI4AddBuffers"
 supported_version="1.11.*"
-path="mod/HOI4Buffers"
+path="mod/HOI4AddBuffers"
