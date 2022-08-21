@@ -5,6 +5,8 @@ idea_categories = {
 	buffer_base_Idea = {
 
 		slot = bt_base_ideas
+		slot = bt_base_ideology_ideas
+		slot = bt_base_diplomacy_ideas	
 
 		cost = 0
 		removal_cost = 0
@@ -31,6 +33,8 @@ idea_categories = {
 	buffer_military_Idea = {
 
 		# 三军经验点 buffer 组
+		slot = bt_military_exp_ideas
+		slot = bt_military_exp_ideas
 		slot = bt_military_exp_ideas
 
 		# 指军点 buffer 组

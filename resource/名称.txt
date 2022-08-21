@@ -32,6 +32,16 @@
 
 	以百分比每日增长意识形态抵制度: drift_defence_factor
 
+
+外交：
+	获得好感度：opinion_gain_monthly
+	以百分比在获得好感度：opinion_gain_monthly_factor
+	相同意识形态获得好感度：opinion_gain_monthly_same_ideology
+	以百分比获得好感度：opinion_gain_monthly_same_ideology_factor
+
+	
+
+
 ////////////////////////军事///////////////////////////////
 
 指挥点：
@@ -44,6 +54,7 @@
 
 陆军：
 陆军经验点： experience_gain_army 
+陆军以百分比获得经验点：experience_gain_army_factor
 
 海军：
 海军经验点： experience_gain_navy 
@@ -53,6 +64,10 @@
 空军以百分比获得经验点： experience_gain_air_factor
 空军训练获得经验点： air_training_xp_gain_factor
 
+
+师：
+师经验点：experience_gain_army_unit
+师以百分比获得经验点：experience_gain_army_unit_factor
 
 师增援率： land_reinforce_rate
 

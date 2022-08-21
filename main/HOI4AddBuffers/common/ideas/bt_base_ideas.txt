@@ -4,34 +4,81 @@ ideas = {
 	bt_base_ideas = {
 
 		# 政治点 buffer
-		buffer_polit_idea = {
-			on_add = {
-				# country_event = 
-			}
-		}
+		bt_base_polit_idea = {
+		} # 政治点 buffer
 
 
 		# 稳定度 buffer
-		buffer_st_idea = {
-			on_add = {
-				# country_event = 
-			}
-		}
+		bt_base_st_idea = {
+		} # 稳定度 buffer
 
 
 		# 战争支持度 buffer
-		buffer_ws_idea ={
-			on_add = {
-				# country_event = 
-			}
-		}
+		bt_base_ws_idea ={
+		} # 战争支持度 buffer
 
-		# 指挥点 buffer 
-		buffer_cp_idea = {
-			on_add = {
-				# country_event = 
-			}
-		}
+	} # 基础点 buffer
 
-	}	# 基础点 buffer
+
+	# 意识形态 buffer
+	bt_base_ideology_ideas = {
+
+		# 民主意识形态增长
+		bt_base_id_democratic_drift_idea = {
+
+		} # 民主意识形态增长
+
+
+		# 共产意识形态增长
+		bt_base_id_communism_drift_idea = {
+
+		} # 共产意识形态增长
+
+		# 法西斯意识形态增长
+		bt_base_id_fascism_drift_idea = {
+
+		} # 法西斯意识形态增长
+
+
+		# 中立意识形态增长
+		bt_base_id_neutrality_drift_idea = {
+
+		} # 中立意识形态增长
+
+		# 意识形态抵制
+		bt_base_id_drift_defence_idea = {
+
+		} # 意识形态抵制
+
+	} # 意识形态 buffer
+
+
+	# 外交 buffer
+	bt_base_diplomacy_ideas = {
+
+		# 改善关系获得好感度
+		bt_base_diplomacy_opinion_idea = {
+			
+		} # 改善关系获得好感度
+
+		# 改善关系以百分比获得好感度
+		bt_base_diplomacy_opinion_factor_idea = {
+
+		} # 改善关系以百分比获得好感度
+
+
+		# 相同意识形态改善关系获得好感度
+		bt_base_diplomacy_opinion_same_ideology_idea = {
+
+		} # 相同意识形态改善关系获得好感度
+
+
+		# 相同意识形态改善关系以百分比获得好感度
+		bt_base_diplomacy_opinion_same_ideology_factor_idea = {
+		
+		} # 相同意识形态改善关系以百分比获得好感度
+
+	} # 外交 buffer
+
+
 }

@@ -5,11 +5,48 @@ ideas = {
 	# 三军经验 buffer 组
 	bt_military_exp_ideas = {
 
-	}	
+		# 陆军经验 buffer
+		bt_military_exp_gain_army_idea = {
+			modifier = {
+				experience_gain_army = 0.1
+			}
+
+			# cost = 0
+			# removal_cost = 0
+		} # 陆军经验 buffer
+
+
+		# 海军经验 buffer
+		bt_military_exp_gain_navy_idea = {
+			modifier = {
+				experience_gain_navy = 0.1
+			}
+		} # 海军经验 buffer
+
+
+		# 空军经验 buffer
+		bt_military_exp_gain_air_idea = {
+			modifier = {
+				experience_gain_air = 0.1
+			}
+		} # 空军经验 buffer
+
+
+	} # 三军经验 buffer 组
 
 	# 指军点 buffer 组
 	bt_military_command_ideas = {
-	
-	}
 
-}
+		# 指军点每日增长 buffer
+		bt_military_command_gain_idea = {
+			modifier = {
+				command_power_gain = 0.1
+			}
+		}# 指军点每日增长 buffer
+
+	} # 指军点 buffer 组
+
+
+
+
+} # 指军点 buffer 组

@@ -1,2 +1,96 @@
-l_english:
-  buffer_base_Idea:0 "基础Buffer"
+﻿l_english:
+ #################栏标题#####################
+ buffer_base_Idea:0 "基础 Buffer"
+ buffer_build_Idea:0 "建造 Buffer"
+ buffer_military_Idea:0 "军事 Buffer"
+
+
+ #################组标题#####################
+ # 基础
+ bt_base_ideas:0 "基础点 buffer"
+ bt_base_ideology_ideas:0 "意识形态 buffer"
+ bt_base_diplomacy_ideas:0 "外交 buffer"
+
+ # ------------------------------------------------------- #
+ # 建造
+
+
+ # ------------------------------------------------------- #
+ # 军事 
+ # 三军经验组
+ bt_military_exp_ideas:0 "三军经验 buffer"
+ # 指控组
+ bt_military_command_ideas:0 "指控点 buffer"
+
+ #################Buffer标题#####################
+ # 基础组
+ # 基础
+ bt_base_polit_idea:0 "政治点增长 buffer"
+ bt_base_st_idea:0 "稳定度增长 buffer"
+ bt_base_ws_idea:0 "战争支持度 buffer"
+
+ # 意识形态组
+ bt_base_id_democratic_drift_idea:0 "民主意识形态增长"
+ bt_base_id_communism_drift_idea:0 "共产意识形态增长"
+ bt_base_id_fascism_drift_idea:0 "法西斯意识形态增长"
+ bt_base_id_neutrality_drift_idea:0 "中立意识形态增长"
+ bt_base_id_drift_defence_idea:0 "意识形态抵制"
+
+ # 外交组
+ bt_base_diplomacy_opinion_idea:0 "改善关系获得好感度"
+ bt_base_diplomacy_opinion_factor_idea:0 "改善关系以百分比获得好感度"
+ bt_base_diplomacy_opinion_same_ideology_idea:0 "相同意识形态改善关系获得好感度"
+ bt_base_diplomacy_opinion_same_ideology_factor_idea:0 "相同意识形态改善关系以百分比获得好感度"
+
+
+ # ------------------------------------------------------- #
+ # 建造组
+
+
+
+ # ------------------------------------------------------- #
+ # 军事组
+ # 三军经验组
+
+ # 陆军经验 buffer
+ bt_military_exp_gain_army_idea:0 "每日增长陆军经验"
+
+ 
+ # 海军经验 buffer
+ bt_military_exp_gain_navy_idea:0 "每日增长海军经验"
+ 
+ # 空军经验 buffer 
+ bt_military_exp_gain_air_idea:0 "每日增长空军经验"
+
+ # 指挥点 buffer 组
+ bt_military_command_gain_idea:0 "每日增长指控点"
+ 
+
+ ######################事件#######################
+ # 基础
+ # 政治点
+ # addbuffers.event.base.11001.t:0 "增加政治点"
+ # addbuffers.event.base.11001.d:0 "每日增加政治点\n选择要增加的政治点"
+
+
+ # addbuffers.event.base.11001.a:0 "增加政治点A"
+ # addbuffers.event.base.11001.b:0 "增加政治点B"
+ # addbuffers.event.base.11001.c:0 "增加政治点B"
+
+
+ ######################基础组######################
+ 
+
+ ######################意识形态组######################
+ 
+
+
+
+ ######################事件######################
+
+ # 事件通用按钮文本
+ addbuffers.event.common.a:0 "确定"
+ addbuffers.event.common.b:0 "关闭"
+ addbuffers.event.common.c:0 "上一页"
+ addbuffers.event.common.d:0 "下一页"
+
