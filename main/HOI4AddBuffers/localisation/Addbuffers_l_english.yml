@@ -2,8 +2,9 @@
  #################栏标题#####################
  buffer_base_Idea:0 "基础 Buffer"
  buffer_build_Idea:0 "建造 Buffer"
- buffer_military_Idea:0 "军事 Buffer"
-
+ buffer_army_Idea:0 "陆军 Buffer"
+ buffer_navy_Idea:0 "海军 Buffer"
+ buffer_air_Idea:0 "空军 Buffer"
 
  #################组标题#####################
  # 基础
@@ -18,7 +19,16 @@
  # ------------------------------------------------------- #
  # 军事 
  # 三军经验组
- bt_military_exp_ideas:0 "三军经验 buffer"
+ # 陆军组
+ bt_army_exp_ideas:0 "陆军经验 buffer"
+
+ # 海军组
+ bt_navy_exp_ideas:0 "海军经验 buffer"
+
+ # 空军组
+ bt_navy_exp_ideas:0 "海军经验 buffer"
+ 
+
  # 指控组
  bt_military_command_ideas:0 "指控点 buffer"
 
@@ -50,20 +60,25 @@
 
  # ------------------------------------------------------- #
  # 军事组
- # 三军经验组
+ # 军经验组
 
  # 陆军经验 buffer
- bt_military_exp_gain_army_idea:0 "每日增长陆军经验"
+ bt_army_exp_gain_idea:0 "陆军经验"
+ bt_army_exp_gain_factor_idea:0 "§C陆军经验§!"
+ # bt_army_exp_gain_unit_idea:0 "师经验"
+ # bt_army_exp_gain_unit_factor_idea:0 "§C师经验§!"
+ bt_army_exp_reinforce_rate_idea:0 "增援率"
 
  
  # 海军经验 buffer
- bt_military_exp_gain_navy_idea:0 "每日增长海军经验"
+ bt_navy_exp_gain_idea:0 "海军经验"
  
  # 空军经验 buffer 
- bt_military_exp_gain_air_idea:0 "每日增长空军经验"
+ bt_air_exp_gain_idea:0 "空军经验"
 
  # 指挥点 buffer 组
- bt_military_command_gain_idea:0 "每日增长指控点"
+ bt_military_command_gain_idea:0 "指挥点"
+ bt_military_command_gain_mult_idea:0 "§C指挥点§!"
  
 
  ######################事件#######################

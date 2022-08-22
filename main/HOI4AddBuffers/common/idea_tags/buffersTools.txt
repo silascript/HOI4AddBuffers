@@ -30,18 +30,43 @@ idea_categories = {
 	}
 
 	# 军事 buffer
-	buffer_military_Idea = {
+	# 陆军经验 buffer 栏
+	buffer_army_Idea = {
 
-		# 三军经验点 buffer 组
-		slot = bt_military_exp_ideas
-		slot = bt_military_exp_ideas
-		slot = bt_military_exp_ideas
-
-		# 指军点 buffer 组
+		# 陆军经验点 buffer 组
+		slot = bt_army_exp_ideas
+		slot = bt_army_exp_ideas
+		slot = bt_army_exp_ideas
+		
+		# 指挥点 buffer 组
+		slot = bt_military_command_ideas
 		slot = bt_military_command_ideas
 
-		cost = 0
+
+
+		cost = 0 
 		removal_cost = 0
-	}
+
+	} # 陆军经验 buffer 栏
+
+	# 海军经验 buffer 栏
+	buffer_navy_Idea = {
+
+		slot = bt_navy_exp_ideas
+
+		cost = 0 
+		removal_cost = 0 
+
+	} # 海军经验 buffer 栏
+
+	# 空军经验 buffer 栏
+	buffer_air_Idea = {
+
+		slot = bt_air_exp_ideas
+
+		cost = 0 
+		removal_cost = 0 
+
+	} # 空军经验 buffer 栏
 
 }
