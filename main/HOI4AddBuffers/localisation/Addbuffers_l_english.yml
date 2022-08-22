@@ -5,6 +5,7 @@
  buffer_army_Idea:0 "陆军 Buffer"
  buffer_navy_Idea:0 "海军 Buffer"
  buffer_air_Idea:0 "空军 Buffer"
+ buffer_production_Idea:0 "产出 Buffer"
 
  #################组标题#####################
  # 基础
@@ -14,6 +15,9 @@
 
  # ------------------------------------------------------- #
  # 建造
+
+ # 产出组
+ bt_build_production_ideas:0 "产出 buffer"
 
 
  # ------------------------------------------------------- #
@@ -56,6 +60,11 @@
  # ------------------------------------------------------- #
  # 建造组
 
+ # 产出组
+ # bt_build_production_factory_efficiency_gain_idea:0 "工厂产出效率增长"
+ bt_build_production_factory_idea:0 "工厂产出"
+ bt_build_production_dockyard_idea:0 "船坞产出"
+
 
 
  # ------------------------------------------------------- #
@@ -66,12 +75,16 @@
  bt_army_exp_gain_idea:0 "陆军经验"
  bt_army_exp_gain_factor_idea:0 "§C陆军经验§!"
  # bt_army_exp_gain_unit_idea:0 "师经验"
- # bt_army_exp_gain_unit_factor_idea:0 "§C师经验§!"
+ bt_army_exp_gain_unit_factor_idea:0 "§C师经验§!"
  bt_army_exp_reinforce_rate_idea:0 "增援率"
 
  
  # 海军经验 buffer
  bt_navy_exp_gain_idea:0 "海军经验"
+ bt_navy_exp_gain_factor_idea:0 "§C海军经验§!"
+
+ bt_navy_exp_gain_unit_idea:0 "§C舰船经验§!"
+ bt_navy_exp_gain_unit_factor_idea:0 "§C舰船经验§!"
  
  # 空军经验 buffer 
  bt_air_exp_gain_idea:0 "空军经验"
@@ -104,8 +117,8 @@
  ######################事件######################
 
  # 事件通用按钮文本
- addbuffers.event.common.a:0 "确定"
- addbuffers.event.common.b:0 "关闭"
- addbuffers.event.common.c:0 "上一页"
- addbuffers.event.common.d:0 "下一页"
+ # addbuffers.event.common.a:0 "确定"
+ # addbuffers.event.common.b:0 "关闭"
+ # addbuffers.event.common.c:0 "上一页"
+ # addbuffers.event.common.d:0 "下一页"
 

@@ -4,14 +4,13 @@ idea_categories = {
 	# 政治点
 	buffer_base_Idea = {
 
-		slot = bt_base_ideas
-		slot = bt_base_ideology_ideas
-		slot = bt_base_diplomacy_ideas	
+		# slot = 
 
 		cost = 0
 		removal_cost = 0
 	}
 
+	# ------------------------------------------------------ #
 
 	# 建造 buffer
 	buffer_build_Idea = {
@@ -20,14 +19,27 @@ idea_categories = {
 
 		# 基础建筑 buffer 组
 		slot = bt_build_base_ideas
-		# 产出 buffer 组
-		slot = bt_build_production_ideas
-		# 防御性建筑 buffer 组
-		slot = bt_build_defender_ideas
+		slot = bt_build_base_ideas
 
 		cost = 0
 		removal_cost = 0
-	}
+
+	} # 建造 buffer
+
+	# 产出 buffer
+	buffer_production_Idea = {
+
+		# 产出
+		#slot = bt_build_production_ideas
+		slot = bt_build_production_ideas
+		slot = bt_build_production_ideas
+
+		cost = 0
+		removal_cost = 0
+
+	} # 产出 buffer
+
+	# ------------------------------------------------------ #
 
 	# 军事 buffer
 	# 陆军经验 buffer 栏
@@ -37,7 +49,7 @@ idea_categories = {
 		slot = bt_army_exp_ideas
 		slot = bt_army_exp_ideas
 		slot = bt_army_exp_ideas
-		
+
 		# 指挥点 buffer 组
 		slot = bt_military_command_ideas
 		slot = bt_military_command_ideas
@@ -52,6 +64,10 @@ idea_categories = {
 	# 海军经验 buffer 栏
 	buffer_navy_Idea = {
 
+		slot = bt_navy_exp_ideas
+		slot = bt_navy_exp_ideas
+
+		slot = bt_navy_exp_ideas
 		slot = bt_navy_exp_ideas
 
 		cost = 0 
@@ -68,5 +84,9 @@ idea_categories = {
 		removal_cost = 0 
 
 	} # 空军经验 buffer 栏
+
+
+	# ------------------------------------------------------ #
+
 
 }

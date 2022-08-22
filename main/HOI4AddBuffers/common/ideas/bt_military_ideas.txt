@@ -38,11 +38,11 @@ ideas = {
 		#} # 师经验 buffer
 
 		# 以百分比获得师经验 buffer
-		#bt_army_exp_gain_unit_factor_idea = {
-		#	modifier = {
-		#		experience_gain_army_unit_factor = 0.01
-		#	}
-		#} # 以百分比获得师经验 buffer
+		bt_army_exp_gain_unit_factor_idea = {
+			modifier = {
+				experience_gain_army_unit_factor = 0.01
+			}
+		} # 以百分比获得师经验 buffer
 
 
 		# 增援率
@@ -52,6 +52,10 @@ ideas = {
 			}
 		} # 增援率
 
+
+		
+
+
 	} # 陆军经验 buffer 组
 
 
@@ -59,13 +63,36 @@ ideas = {
 	bt_navy_exp_ideas = {
 
 		law = yes
-		
+
 		# 海军经验 buffer
 		bt_navy_exp_gain_idea = {
 			modifier = {
 				experience_gain_navy = 0.1
 			}
 		} # 海军经验 buffer
+
+		# 海军以百分比获得经验 buffer
+		bt_navy_exp_gain_factor_idea = {
+			modifier = {
+				experience_gain_navy_factor = 0.02
+			}
+		} # 海军以百分比获得经验 buffer
+
+
+		# 舰船经验 buffer
+		bt_navy_exp_gain_unit_idea = {
+			modifier = {
+				experience_gain_navy_unit = 0.01
+			}
+		} # 舰船经验 buffer
+
+
+		# 舰船以百分比获得经验 buffer
+		bt_navy_exp_gain_unit_factor_idea = {
+			modifier = {
+				experience_gain_navy_unit_factor = 0.01
+			}
+		} # 舰船以百分比获得经验 buffer
 
 	} # 海军经验 buffer 组
 

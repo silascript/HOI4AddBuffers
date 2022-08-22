@@ -2,26 +2,53 @@ ideas = {
 	
 	# 基础建筑 buffer 组
 	bt_build_base_ideas = {
-		# 基建速度	
+
+		law = yes
+
+		# 基建建造 buffer
 		bt_build_base_infrastructure = {
-			on_add = {
-				# country_event = 
-			}
-		}
+			modifier = {
+				production_speed_infrastructure_factor = 0.01		
+			}	
+
+		} # 基建建造 buffer
 
 		# 民工建造速度
 		bt_build_base_industrial_complex = {
-			on_add = {
-				# country_event = 
-			}
+			modifier = {
+				production_speed_industrial_complex_factor = 0.01
+			}	
 		}
 
 	}
 
 	# 产出 buffer 组
 	bt_build_production_ideas = {
-	
-	}
+		law = yes
+
+		# 工厂产出效率增长 buffer
+		# bt_build_production_factory_efficiency_gain_idea = {
+			# modifier = {
+			# 	production_factory_efficiency_gain_factor = 0.01
+		# 	}
+		# } # 工厂产出 buffer
+
+
+		# 军工厂产出 buffer
+		bt_build_production_factory_idea = {
+			modifier = {
+				industrial_capacity_factory = 0.01
+			}
+		}
+
+		# 船坞产出 buffer
+		bt_build_production_dockyard_idea = {
+			modifier = {
+				industrial_capacity_dockyard = 0.01
+			}
+		} # 船坞产出 buffer
+
+	} # 产出 buffer 组
 
 	# 防御性建筑 buffer 组
 	bt_builder_defender_ideas = {
