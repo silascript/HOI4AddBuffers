@@ -4,6 +4,7 @@
  buffer_build_base_Idea:0 "建造基础 Buffer"
  buffer_build_defender_Idea:0 "防御性建筑 Buffer"
  buffer_production_Idea:0 "产出 Buffer"
+ buffer_fuel_Idea:0 "燃油 Buffer"
  buffer_army_Idea:0 "陆军 Buffer"
  buffer_navy_Idea:0 "海军 Buffer"
  buffer_air_Idea:0 "空军 Buffer"
@@ -39,6 +40,12 @@
 
  # 指控组
  bt_military_command_ideas:0 "指控点 buffer"
+
+
+ # ------------------------------------------------------- #
+ # 燃油组
+ # bt_fuel_consumption_ideas:0 "燃油消耗 buffer"
+ bt_fuel_gain_ideas:0 "燃油增长 buffer"
 
  ###########################Buffer标题###########################
  # 基础组
@@ -83,7 +90,7 @@
 
  # 产出组
  # bt_build_production_factory_efficiency_gain_idea:0 "工厂产出效率增长"
- bt_builder_production_factory_idea:0 "工厂产出"
+ bt_builder_production_factory_idea:0 "军工产出"
  bt_builder_production_dockyard_idea:0 "船坞产出"
  bt_builder_production_synthetic_oil_idea:0 "合成燃油产出"
 
@@ -119,5 +126,15 @@
  bt_military_command_gain_mult_idea:0 "§C指挥点§!"
  
 
-
+ # ------------------------------------------------------- #
+ # 燃油组
+ # 燃油消耗
+  
+ # 燃油增长
+ bt_fuel_gain_idea:0 "燃油增长"
+ bt_fuel_gain_factor_idea:0 "§C燃油增长§!"
+ bt_fuel_base_gain_idea:0 "基础燃油增长"
+ bt_fuel_base_gain_factor_idea:0 "§C基础燃油增长§!"
+ bt_fuel_max_gain_idea:0 "燃油容量增长"
+ bt_fuel_max_gain_factor_idea:0 "§C燃油容量增长§!"
 

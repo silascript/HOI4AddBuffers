@@ -1,0 +1,72 @@
+
+# 燃油相关 
+ideas = {
+	
+	# 燃油消耗 buffer
+	#bt_fuel_consumption_ideas = {
+
+
+
+	# 	} # 每日燃油消耗 buffer
+
+	# } # 燃油消耗 buffer
+
+
+	# 燃油增长 buffer
+	bt_fuel_gain_ideas = {
+
+		law=yes
+
+		# 每日燃油增长 buffer
+		bt_fuel_gain_idea = {
+			modifier = {
+				fuel_gain = 1
+			}
+		} # 每日燃油增长 buffer
+
+
+		# 每日燃油以百分比增长 buffer
+		bt_fuel_gain_factor_idea = {
+			modifier = {
+				fuel_gain_factor = 0.01	
+			}
+		} # 每日燃油以百分比增长 buffer
+
+
+		# 每日基础燃油增长 buffer
+		bt_fuel_base_gain_idea = {
+			modifier = {
+				base_fuel_gain = 1
+			}
+
+		} # 每日基础燃油增长 buffer
+
+
+		# 每日基础燃油以百分比增长 buffer
+		bt_fuel_base_gain_factor_idea = {
+			modifier = {
+				base_fuel_gain_factor = 0.01	
+			}
+
+		} # 每日基础燃油以百分比增长 buffer
+
+
+		# 每日燃油容量增长 buffer
+		bt_fuel_max_gain_idea = {
+			modifier = {
+				max_fuel = 0.01	
+			}
+
+		} # 每日燃油容量增长 buffer
+
+		# 每日燃油容量以百分比增长 buffer
+		bt_fuel_max_gain_factor_idea = {
+			modifier = {
+				max_fuel_factor = 0.01	
+			}
+
+		} # 每日燃油容量以百分比增长 buffer
+
+	} # 燃油增长 buffer
+
+}

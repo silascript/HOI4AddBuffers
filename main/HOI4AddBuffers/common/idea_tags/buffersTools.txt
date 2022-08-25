@@ -111,5 +111,22 @@ idea_categories = {
 
 	# ------------------------------------------------------ #
 
+	# 燃油 buffer
+	# 燃油栏
+	buffer_fuel_Idea = {
+
+		# slot = bt_fuel_consumption_ideas
+
+		slot = bt_fuel_gain_ideas
+		slot = bt_fuel_gain_ideas
+		slot = bt_fuel_gain_ideas
+		slot = bt_fuel_gain_ideas
+		slot = bt_fuel_gain_ideas
+		slot = bt_fuel_gain_ideas
+
+		cost = 0 
+		removal_cost = 0
+		
+	} # 燃油栏
 
 }

@@ -251,8 +251,12 @@ experience_gain_guided_missile_combat_factor
 
 燃油：
 	每日燃油增长： fuel_gain
-	每日燃油以百分比增长：fuel_gain_factor
-	每日燃油消耗：fuel_cost
+	每日燃油以百分比增长： fuel_gain_factor
+	每日基础燃油增长： base_fuel_gain	 
+	每日基础燃油以百分比增长： base_fuel_gain_factor
+	每日燃油容量增长： max_fuel
+	每日燃油容量以百分比增长： max_fuel_factor
+	每日燃油消耗： fuel_cost
 
 油耗：
 
