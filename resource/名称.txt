@@ -284,6 +284,22 @@ experience_gain_guided_missile_combat_factor
 	火箭发射井建造速度： production_speed_rocket_site_factor
 	核反应堆建造速度： production_speed_nuclear_reactor_factor
 
+各类型建筑修复速度：
+基建： repair_speed_infrastructure_factor
+民工： repair_speed_industrial_complex_factor
+军工： repair_speed_arms_factory_factor
+船坞： repair_speed_dockyard_factor
+储油罐： repair_speed_fuel_silo_factor
+合成炼油厂： repair_speed_synthetic_refinery_factor
+海基： repair_speed_naval_base_factor
+雷达站： repair_speed_radar_station_factor
+空基： repair_speed_air_base_factor
+防空： repair_speed_anti_air_building_factor
+地堡： repair_speed_bunker_factor
+海岸地堡： repair_speed_coastal_bunker_factor
+火箭发射井： repair_speed_rocket_site_factor
+核反应堆： repair_speed_nuclear_reactor_factor
+
 
 生活消费品工厂占比：consumer_goods_factor
 

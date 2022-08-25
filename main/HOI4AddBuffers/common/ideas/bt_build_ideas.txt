@@ -1,12 +1,12 @@
 ideas = {
 	
-	# 基础建筑 buffer 组
-	bt_build_base_ideas = {
+	# 工厂建筑 buffer 组
+	bt_builder_factory_ideas = {
 
 		law = yes
 
 		# 基建建造 buffer
-		bt_build_base_infrastructure = {
+		bt_builder_factory_speed_infrastructure = {
 			modifier = {
 				production_speed_infrastructure_factor = 0.01		
 			}	
@@ -14,13 +14,47 @@ ideas = {
 		} # 基建建造 buffer
 
 		# 民工建造速度
-		bt_build_base_industrial_complex = {
+		bt_builder_factory_speed_industrial_complex = {
 			modifier = {
 				production_speed_industrial_complex_factor = 0.01
 			}	
-		}
+		} # 民工建造速度
 
-	}
+		# 军工建造速度
+		bt_builder_factory_speed_arms_factory = {
+			modifier = {
+				production_speed_arms_factory_factor = 0.01
+			}	
+		} # 军工建造速度
+
+		# 船坞建造速度
+		bt_builder_factory_speed_dockyard = {
+			modifier = {
+				production_speed_dockyard_factor = 0.01	
+			}	
+		} # 船坞建造速度
+
+
+		# 储油罐建造速度
+		bt_builder_factory_speed_fuel_silo = {
+			modifier = {
+				production_speed_fuel_silo_factor = 0.01
+			}	
+		} # 储油罐建造速度
+
+
+		# 合成炼油厂建造速度
+		bt_builder_factory_speed_synthetic_refinery = {
+			modifier = {
+				production_speed_synthetic_refinery_factor = 0.01
+			}	
+		} # 合成炼油厂建造速度
+
+
+	} # 工厂建筑 buffer 组
+
+
+	# --------------------------------------------------------- #
 
 	# 产出 buffer 组
 	bt_build_production_ideas = {
@@ -50,10 +84,61 @@ ideas = {
 
 	} # 产出 buffer 组
 
+	
+	# --------------------------------------------------------- #
+
+
+
 	# 防御性建筑 buffer 组
 	bt_builder_defender_ideas = {
 
-	}
+		# 防空建筑建造速度 buffer
+		bt_builder_defender_speed_anti_air_idea = {
+			modifier = {
+				production_speed_anti_air_building_factor = 0.01	
+			}
+		} # 防空建筑建造速度 buffer
+
+
+		# 陆上要塞建造速度 buffer
+		bt_builder_defender_speed_bunker_idea = {
+			modifier = {
+				production_speed_bunker_factor = 0.01
+			}
+		} # 陆上要塞建造速度 buffer
+
+		# 海岸要塞建造速度 buffer
+		bt_builder_defender_speed_coastal_bunker_idea = {
+			modifier = {
+				production_speed_coastal_bunker_factor = 0.01
+			}
+		} # 海岸要塞建造速度 buffer
+
+		# ----------------------修复------------------- #
+
+		# 防空建筑修复速度 buffer
+		#bt_builder_defender_repair_speed_anti_air_idea = {
+		#	modifier = {
+		#		repair_speed_anti_air_building_factor = 0.01	
+		#	}
+		#} # 防空建筑修复速度 buffer
+
+
+		# 陆上要塞修复速度 buffer
+		#bt_builder_defender_repair_speed_bunker_idea = {
+		#	modifier = {
+		#		repair_speed_bunker_factor = 0.01	
+		#	}
+		#} # 陆上要塞修复速度 buffer
+
+		# 海岸要塞修复速度 buffer
+		#bt_builder_defender_repair_speed_coastal_bunker_idea = {
+		#	modifier = {
+		#		repair_speed_coastal_bunker_factor = 0.01
+		#	}
+		#} # 海岸要塞修复速度 buffer
+
+	} # 防御性建筑 buffer 组
 
 
 }
