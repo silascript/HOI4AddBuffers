@@ -10,7 +10,7 @@ ideas = {
 		# 陆军经验 buffer
 		bt_army_exp_gain_idea = {
 			modifier = {
-				experience_gain_army = 0.1
+				experience_gain_army = 0.06
 			}
 
 			# cancel_if_invalid = yes
@@ -23,7 +23,7 @@ ideas = {
 		# 陆军以百分比获得经验 buffer
 		bt_army_exp_gain_factor_idea = {
 			modifier = {
-				experience_gain_army_factor = 0.02
+				experience_gain_army_factor = 0.01
 			}
 
 
@@ -53,9 +53,6 @@ ideas = {
 		} # 增援率
 
 
-		
-
-
 	} # 陆军经验 buffer 组
 
 
@@ -67,7 +64,7 @@ ideas = {
 		# 海军经验 buffer
 		bt_navy_exp_gain_idea = {
 			modifier = {
-				experience_gain_navy = 0.1
+				experience_gain_navy = 0.06
 			}
 		} # 海军经验 buffer
 
@@ -105,9 +102,32 @@ ideas = {
 		# 空军经验 buffer
 		bt_air_exp_gain_idea = {
 			modifier = {
-				experience_gain_air = 0.1
+				experience_gain_air = 0.03
 			}
 		} # 空军经验 buffer
+
+
+		# 空军以百分比获得经验 buffer
+		bt_air_exp_gain_factor_idea = {
+			modifier = {
+				experience_gain_air_factor = 0.01
+			}
+		} # 空军以百分比获得经验 buffer
+
+
+		# 空军训练获得经验 buffer
+		bt_air_exp_gain_training_xp_idea = {
+			modifier = {
+				air_training_xp_gain_factor = 0.01
+			}
+		} # 空军训练获得经验 buffer
+
+		# 空军王牌出现概率 buffer
+		bt_air_ace_generation_chance_idea = {
+			modifier = {
+				air_ace_generation_chance_factor = 0.01
+			}
+		} # 空军王牌出现概率 buffer
 
 	} # 空军经验 buffer
 

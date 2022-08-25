@@ -57,7 +57,7 @@ ideas = {
 	# --------------------------------------------------------- #
 
 	# 产出 buffer 组
-	bt_build_production_ideas = {
+	bt_builder_production_ideas = {
 		law = yes
 
 		# 工厂产出效率增长 buffer
@@ -69,18 +69,27 @@ ideas = {
 
 
 		# 军工厂产出 buffer
-		bt_build_production_factory_idea = {
+		bt_builder_production_factory_idea = {
 			modifier = {
 				industrial_capacity_factory = 0.01
 			}
 		}
 
 		# 船坞产出 buffer
-		bt_build_production_dockyard_idea = {
+		bt_builder_production_dockyard_idea = {
 			modifier = {
 				industrial_capacity_dockyard = 0.01
 			}
 		} # 船坞产出 buffer
+
+
+		# 合成燃料厂产出 buffer
+		bt_builder_production_synthetic_oil_idea = {
+			modifier = {
+				production_oil_factor = 0.01
+			}
+		} # 产出 buffer
+
 
 	} # 产出 buffer 组
 

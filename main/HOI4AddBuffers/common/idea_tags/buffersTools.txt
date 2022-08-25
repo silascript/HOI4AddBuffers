@@ -50,8 +50,9 @@ idea_categories = {
 
 		# 产出
 		#slot = bt_build_production_ideas
-		slot = bt_build_production_ideas
-		slot = bt_build_production_ideas
+		slot = bt_builder_production_ideas
+		slot = bt_builder_production_ideas
+		slot = bt_builder_production_ideas
 
 		cost = 0
 		removal_cost = 0
@@ -97,6 +98,9 @@ idea_categories = {
 	# 空军经验 buffer 栏
 	buffer_air_Idea = {
 
+		slot = bt_air_exp_ideas
+		slot = bt_air_exp_ideas
+		slot = bt_air_exp_ideas
 		slot = bt_air_exp_ideas
 
 		cost = 0 
