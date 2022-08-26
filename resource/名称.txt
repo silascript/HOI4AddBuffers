@@ -34,10 +34,10 @@
 
 
 外交(Diplomacy)：
-	获得好感度：opinion_gain_monthly
-	以百分比在获得好感度：opinion_gain_monthly_factor
-	相同意识形态获得好感度：opinion_gain_monthly_same_ideology
-	以百分比获得好感度：opinion_gain_monthly_same_ideology_factor
+	获得好感度： opinion_gain_monthly
+	以百分比在获得好感度： opinion_gain_monthly_factor
+	相同意识形态获得好感度： opinion_gain_monthly_same_ideology
+	以百分比获得好感度： opinion_gain_monthly_same_ideology_factor
 
 	
 

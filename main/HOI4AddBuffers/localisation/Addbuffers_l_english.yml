@@ -67,10 +67,10 @@
  bt_id_drift_defence_idea:0 "意识形态抵制"
 
  # 外交组
- bt_diplomacy_opinion_idea:0 "改善关系获得好感度"
- bt_diplomacy_opinion_factor_idea:0 "改善关系以百分比获得好感度"
- bt_diplomacy_opinion_same_ideology_idea:0 "相同意识形态改善关系获得好感度"
- bt_diplomacy_opinion_same_ideology_factor_idea:0 "相同意识形态改善关系以百分比获得好感度"
+ # bt_diplomacy_opinion_idea:0 "获得好感度"
+ bt_diplomacy_opinion_factor_idea:0 "§C获得好感度§!"
+ # bt_diplomacy_opinion_same_ideology_idea:0 "相同意识形态好感度"
+ bt_diplomacy_opinion_same_ideology_factor_idea:0 "§C相同意识形态好感度§!"
 
 
  # ------------------------------------------------------- #

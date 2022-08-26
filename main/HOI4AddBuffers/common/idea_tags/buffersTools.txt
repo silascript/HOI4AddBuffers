@@ -33,7 +33,8 @@ idea_categories = {
 	# 外交 Buffer 栏
 	buffer_diplomacy_Idea = {
 
-		#slot =	
+		slot =	bt_diplomacy_ideas
+		slot =	bt_diplomacy_ideas
 
 		cost = 0
 		removal_cost = 0
