@@ -313,12 +313,25 @@ experience_gain_guided_missile_combat_factor
 船坞产出(百分比)： industrial_capacity_dockyard
 军工产出(百分比)： industrial_capacity_factory
 
-合成燃油产出：production_oil_factor
+合成燃油产出： production_oil_factor
 
 
-船坞修船速度(百分比)：repair_speed_factor
+船坞修船速度(百分比)： repair_speed_factor
 
 ///////////////////////////////////////////////////////////
 
 技术研究速度(百分比)： research_speed_factor
+
+
+
+ ///////////////////////////////////////////////////////
+
+ 装备：
+ 战斗中缴获的装备数： equipment_capture
+ 以百分比战斗中缴获装备数： equipment_capture_factor
+
+
+ 装备改装速度： equipment_conversion_speed
+ 装备整修速度： refit_speed
+ 海军装备改装速度： navy_refit_speed
 

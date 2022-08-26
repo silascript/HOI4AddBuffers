@@ -52,7 +52,6 @@ ideas = {
 			}
 		} # 增援率
 
-
 	} # 陆军经验 buffer 组
 
 
@@ -154,6 +153,44 @@ ideas = {
 	} # 指军点 buffer 组
 
 
+	# 装备 buffer 组
+	bt_equipment_ideas = {
+		law = yes
+
+		# 以百分比缴获装备 buffer
+		bt_equipment_capture_factor_idea = {
+			modifier = {
+				equipment_capture_factor = 0.02
+			}
+
+		} # 以百分比缴获装备 buffer
+
+		# 装备转换速度 buffer
+		bt_equipment_conversion_speed_idea = {
+			modifier = {
+				equipment_conversion_speed = 0.01	
+			}
+
+		} # 装备转换速度 buffer
 
 
-} # 指军点 buffer 组
+		# 装备改装速度 buffer
+		bt_equipment_refit_speed_idea = {
+			modifier = {
+				refit_speed = 0.01
+			}
+			
+		} # 装备改装速度 buffer
+
+		# 海军装备改装速度 buffer
+		bt_equipment_navy_refit_speed_idea = {
+			modifier = {
+				navy_refit_speed = 0.01
+			}
+
+		} # 海军装备改装速度 buffer
+
+
+	} # 装备 buffer 组
+
+}

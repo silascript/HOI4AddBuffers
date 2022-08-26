@@ -6,11 +6,13 @@
  buffer_builder_factory_Idea:0 "工厂建造 Buffer"
  buffer_builder_defender_Idea:0 "防御性建筑 Buffer"
  buffer_builder_base_Idea:0 "基地建造 Buffer"
+ buffer_builder_repair_Idea:0 "修复 Buffer"
  buffer_production_Idea:0 "产出 Buffer"
  buffer_fuel_Idea:0 "燃油 Buffer"
  buffer_army_Idea:0 "陆军 Buffer"
  buffer_navy_Idea:0 "海军 Buffer"
  buffer_air_Idea:0 "空军 Buffer"
+ buffer_equipment_Idea:0 "装备 Buffer"
 
  ###########################组标题###########################
  # 基础
@@ -31,6 +33,9 @@
  # 基地组
  bt_builder_base_ideas:0 "基地建筑 buffer"
 
+ # 修复组
+ bt_builder_repair_ideas:0 "修复 buffer"
+
  # ------------------------------------------------------- #
  # 军事 
  # 三军经验组
@@ -45,6 +50,9 @@
  
  # 指控组
  bt_military_command_ideas:0 "指控点 buffer"
+
+ # 装备组
+ bt_equipment_ideas:0 "装备 buffer"
 
 
  # ------------------------------------------------------- #
@@ -109,6 +117,10 @@
  bt_builder_base_rocket_site_speed_idea:0 "火箭发射井建造"
  bt_builder_base_nuclear_reactor_speed_idea:0 "核反应堆建造"
 
+ # 修复组
+ bt_builder_repair_industry_speed_idea:0 "建筑物修复"
+ bt_builder_repair_ships_speed_idea:0 "船坞修船"
+
 
  # ------------------------------------------------------- #
  # 军事组
@@ -138,7 +150,12 @@
  # 指挥点 buffer 组
  bt_military_command_gain_idea:0 "指挥点"
  bt_military_command_gain_mult_idea:0 "§C指挥点§!"
- 
+  
+ # 装备 buffer 组
+ bt_equipment_capture_factor_idea:0 "§C缴获装备§!" 
+ bt_equipment_conversion_speed_idea:0 "装备转换速度"
+ bt_equipment_refit_speed_idea:0 "装备改装速度"
+ bt_equipment_navy_refit_speed_idea:0 "海军装备改装速度"
 
  # ------------------------------------------------------- #
  # 燃油组

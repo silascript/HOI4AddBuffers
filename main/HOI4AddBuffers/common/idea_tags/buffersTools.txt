@@ -41,9 +41,6 @@ idea_categories = {
 
 	} # 外交 Buffer 栏
 
-	# ------------------------------------------------------ #
-
-
 
 	# ------------------------------------------------------ #
 
@@ -107,6 +104,18 @@ idea_categories = {
 
 	} # 基地建造 buffer
 
+
+	# 修复 buffer
+	buffer_builder_repair_Idea = {
+
+		slot = bt_builder_repair_ideas
+		slot = bt_builder_repair_ideas
+
+		cost = 0
+		removal_cost = 0
+
+	} # 修复 buffer
+
 	# ------------------------------------------------------ #
 
 	# 军事 buffer
@@ -156,6 +165,18 @@ idea_categories = {
 
 	} # 空军经验 buffer 栏
 
+	# 装备 buffer 栏
+	buffer_equipment_Idea = {
+
+		slot = bt_equipment_ideas
+		slot = bt_equipment_ideas
+		slot = bt_equipment_ideas
+		slot = bt_equipment_ideas
+
+		cost = 0 
+		removal_cost = 0
+
+	} # 装备 buffer 栏
 
 	# ------------------------------------------------------ #
 

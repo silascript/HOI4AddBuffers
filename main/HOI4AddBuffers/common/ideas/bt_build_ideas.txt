@@ -83,6 +83,7 @@ ideas = {
 		} # 船坞产出 buffer
 
 
+
 		# 合成燃料厂产出 buffer
 		bt_builder_production_synthetic_oil_idea = {
 			modifier = {
@@ -192,5 +193,31 @@ ideas = {
 		} # 核反应堆建造速度 buffer
 
 	} # 基地 buffer 组
+
+
+	# --------------------------------------------------------- #
+
+	# 修理 buffer 组
+	bt_builder_repair_ideas = {
+		law = yes
+
+		# 建筑物的修复速度 buffer
+		bt_builder_repair_industry_speed_idea = {
+			modifier = {
+				industry_repair_factor = 0.01
+			}
+
+		} # 建筑物的修复速度 buffer
+
+		# 修理船速度 buffer
+		bt_builder_repair_ships_speed_idea = {
+			modifier = {
+				repair_speed_factor = 0.01
+			}
+
+		} # 修理船速度 buffer
+
+
+	} # 修理 buffer 组
 
 }
