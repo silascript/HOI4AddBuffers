@@ -97,9 +97,10 @@ ideas = {
 	# --------------------------------------------------------- #
 
 
-
 	# 防御性建筑 buffer 组
 	bt_builder_defender_ideas = {
+
+		law = yes
 
 		# 防空建筑建造速度 buffer
 		bt_builder_defender_speed_anti_air_idea = {
@@ -149,5 +150,47 @@ ideas = {
 
 	} # 防御性建筑 buffer 组
 
+
+	# --------------------------------------------------------- #
+
+	# 基地 buffer 组
+	bt_builder_base_ideas = {
+
+		law = yes
+
+		# 空军基地建造速度 buffer
+		bt_builder_base_air_base_speed_idea = {
+			modifier = {
+				production_speed_air_base_factor = 0.01
+			}
+
+		} # 空军基地建造速度 buffer
+
+
+		# 海军基地建造速度 buffer
+		bt_builder_base_naval_base_speed_idea = {
+			modifier = {
+				production_speed_naval_base_factor = 0.01
+			}
+
+		} # 海军基地建造速度 buffer
+
+		# 火箭发射井建造速度 buffer
+		bt_builder_base_rocket_site_speed_idea = {
+			modifier = {
+				production_speed_rocket_site_factor = 0.01
+			}
+
+		} # 火箭发射井建造速度 buffer
+
+		# 核反应堆建造速度 buffer
+		bt_builder_base_nuclear_reactor_speed_idea = {
+			modifier = {
+				production_speed_nuclear_reactor_factor = 0.01	
+			}
+
+		} # 核反应堆建造速度 buffer
+
+	} # 基地 buffer 组
 
 }

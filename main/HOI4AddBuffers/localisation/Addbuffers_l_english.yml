@@ -3,8 +3,9 @@
  buffer_base_Idea:0 "基础 Buffer"
  buffer_ideology_Idea:0 "意识形态 Buffer"
  buffer_diplomacy_Idea:0 "外交 Buffer"
- buffer_build_base_Idea:0 "建造基础 Buffer"
- buffer_build_defender_Idea:0 "防御性建筑 Buffer"
+ buffer_builder_factory_Idea:0 "工厂建造 Buffer"
+ buffer_builder_defender_Idea:0 "防御性建筑 Buffer"
+ buffer_builder_base_Idea:0 "基地建造 Buffer"
  buffer_production_Idea:0 "产出 Buffer"
  buffer_fuel_Idea:0 "燃油 Buffer"
  buffer_army_Idea:0 "陆军 Buffer"
@@ -18,7 +19,7 @@
  bt_diplomacy_ideas:0 "外交 buffer"
 
  # ------------------------------------------------------- #
- # 基础建造组
+ # 工厂建造组
  bt_builder_factory_ideas:0 "工厂建造 buffer"
 
  # 产出组
@@ -26,6 +27,9 @@
 
  # 防御性建筑组
  bt_builder_defender_ideas:0 "防御性建筑 buffer"
+
+ # 基地组
+ bt_builder_base_ideas:0 "基地建筑 buffer"
 
  # ------------------------------------------------------- #
  # 军事 
@@ -99,6 +103,11 @@
  bt_builder_production_dockyard_idea:0 "船坞产出"
  bt_builder_production_synthetic_oil_idea:0 "合成燃油产出"
 
+ # 基地组
+ bt_builder_base_air_base_speed_idea:0 "空军基地建造"
+ bt_builder_base_naval_base_speed_idea:0 "海军基地建造"
+ bt_builder_base_rocket_site_speed_idea:0 "火箭发射井建造"
+ bt_builder_base_nuclear_reactor_speed_idea:0 "核反应堆建造"
 
 
  # ------------------------------------------------------- #

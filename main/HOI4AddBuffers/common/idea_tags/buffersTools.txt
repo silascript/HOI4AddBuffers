@@ -48,7 +48,7 @@ idea_categories = {
 	# ------------------------------------------------------ #
 
 	# 建造 buffer
-	buffer_build_base_Idea = {
+	buffer_builder_factory_Idea = {
 
 		# 工厂建筑 buffer 组
 		slot = bt_builder_factory_ideas
@@ -65,7 +65,7 @@ idea_categories = {
 
 
 	# 防御性建筑 建造 buffer
-	buffer_build_defender_Idea = {
+	buffer_builder_defender_Idea = {
 
 		slot = bt_builder_defender_ideas 
 		slot = bt_builder_defender_ideas 
@@ -93,6 +93,19 @@ idea_categories = {
 		removal_cost = 0
 
 	} # 产出 buffer
+
+	# 基地建造 buffer
+	buffer_builder_base_Idea = {
+
+		slot = bt_builder_base_ideas
+		slot = bt_builder_base_ideas
+		slot = bt_builder_base_ideas
+		slot = bt_builder_base_ideas
+
+		cost = 0
+		removal_cost = 0
+
+	} # 基地建造 buffer
 
 	# ------------------------------------------------------ #
 
