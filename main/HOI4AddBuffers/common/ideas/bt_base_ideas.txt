@@ -52,36 +52,58 @@ ideas = {
 		#	}
 		# } # 每周以百分比获得战争支持度 buffer
 
+		# 每周人口增长 buffer
+		bt_base_manpower_gain_idea = {
+			modifier = {
+				weekly_manpower = 500
+			}
+		} # 每周人口增长 buffer
+
 	} # 基础点 buffer
 
 
 	# 意识形态 buffer
-	bt_base_ideology_ideas = {
+	bt_ideology_ideas = {
 
 		# 民主意识形态增长
-		bt_base_id_democratic_drift_idea = {
+		bt_id_democratic_drift_idea = {
+			modifier = {
+				democratic_drift = 0.01
+			}
 
 		} # 民主意识形态增长
 
 
 		# 共产意识形态增长
-		bt_base_id_communism_drift_idea = {
+		bt_id_communism_drift_idea = {
+			modifier = {
+				communism_drift = 0.01
+			}
 
 		} # 共产意识形态增长
 
 		# 法西斯意识形态增长
-		bt_base_id_fascism_drift_idea = {
+		bt_id_fascism_drift_idea = {
+			modifier = {
+				fascism_drift = 0.01
+			}
 
 		} # 法西斯意识形态增长
 
 
 		# 中立意识形态增长
-		bt_base_id_neutrality_drift_idea = {
+		bt_id_neutrality_drift_idea = {
+			modifier = {
+				neutrality_drift = 0.01
+			}
 
 		} # 中立意识形态增长
 
 		# 意识形态抵制
-		bt_base_id_drift_defence_idea = {
+		bt_id_drift_defence_idea = {
+			modifier = {
+				drift_defence_factor = 0.01
+			}
 
 		} # 意识形态抵制
 
@@ -89,27 +111,27 @@ ideas = {
 
 
 	# 外交 buffer
-	bt_base_diplomacy_ideas = {
+	bt_diplomacy_ideas = {
 
 		# 改善关系获得好感度
-		bt_base_diplomacy_opinion_idea = {
+		bt_diplomacy_opinion_idea = {
 			
 		} # 改善关系获得好感度
 
 		# 改善关系以百分比获得好感度
-		bt_base_diplomacy_opinion_factor_idea = {
+		bt_diplomacy_opinion_factor_idea = {
 
 		} # 改善关系以百分比获得好感度
 
 
 		# 相同意识形态改善关系获得好感度
-		bt_base_diplomacy_opinion_same_ideology_idea = {
+		bt_diplomacy_opinion_same_ideology_idea = {
 
 		} # 相同意识形态改善关系获得好感度
 
 
 		# 相同意识形态改善关系以百分比获得好感度
-		bt_base_diplomacy_opinion_same_ideology_factor_idea = {
+		bt_diplomacy_opinion_same_ideology_factor_idea = {
 		
 		} # 相同意识形态改善关系以百分比获得好感度
 

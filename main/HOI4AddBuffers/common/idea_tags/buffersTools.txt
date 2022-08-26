@@ -1,19 +1,48 @@
 idea_categories = {
 	
 	# 基础点数 buffer 栏
-	# 政治点
 	buffer_base_Idea = {
 
 		slot = bt_base_ideas
 		slot = bt_base_ideas
 		slot = bt_base_ideas
 		slot = bt_base_ideas
-		# slot = bt_base_ideas
+		slot = bt_base_ideas
 		# slot = bt_base_ideas
 
 		cost = 0
 		removal_cost = 0
-	}
+
+	} # 基础点数 buffer 栏
+
+	# 意识形态 buffer 栏
+	buffer_ideology_Idea = {
+		
+		slot = bt_ideology_ideas
+		slot = bt_ideology_ideas
+		slot = bt_ideology_ideas
+		slot = bt_ideology_ideas
+		slot = bt_ideology_ideas
+
+		cost = 0
+		removal_cost = 0	
+
+	} # 意识形态 buffer 栏
+
+
+	# 外交 Buffer 栏
+	buffer_diplomacy_Idea = {
+
+		#slot =	
+
+		cost = 0
+		removal_cost = 0
+
+	} # 外交 Buffer 栏
+
+	# ------------------------------------------------------ #
+
+
 
 	# ------------------------------------------------------ #
 

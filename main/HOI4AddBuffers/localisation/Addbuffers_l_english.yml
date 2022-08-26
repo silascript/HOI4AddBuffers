@@ -1,6 +1,8 @@
 ﻿l_english:
  ###########################栏标题###########################
  buffer_base_Idea:0 "基础 Buffer"
+ buffer_ideology_Idea:0 "意识形态 Buffer"
+ buffer_diplomacy_Idea:0 "外交 Buffer"
  buffer_build_base_Idea:0 "建造基础 Buffer"
  buffer_build_defender_Idea:0 "防御性建筑 Buffer"
  buffer_production_Idea:0 "产出 Buffer"
@@ -12,8 +14,8 @@
  ###########################组标题###########################
  # 基础
  bt_base_ideas:0 "基础点 buffer"
- bt_base_ideology_ideas:0 "意识形态 buffer"
- bt_base_diplomacy_ideas:0 "外交 buffer"
+ bt_ideology_ideas:0 "意识形态 buffer"
+ bt_diplomacy_ideas:0 "外交 buffer"
 
  # ------------------------------------------------------- #
  # 基础建造组
@@ -37,7 +39,6 @@
  # 空军组
  bt_air_exp_ideas:0 "空军经验 buffer"
  
-
  # 指控组
  bt_military_command_ideas:0 "指控点 buffer"
 
@@ -56,19 +57,20 @@
  # bt_base_st_gain_factor_idea:0 "§C稳定度增长§!"
  bt_base_ws_gain_idea:0 "战争支持度"
  # bt_base_ws_gain_factor_idea:0 "§C战争支持度§!"
+ bt_base_manpower_gain_idea:0 "人口增长"
 
  # 意识形态组
- bt_base_id_democratic_drift_idea:0 "民主意识形态增长"
- bt_base_id_communism_drift_idea:0 "共产意识形态增长"
- bt_base_id_fascism_drift_idea:0 "法西斯意识形态增长"
- bt_base_id_neutrality_drift_idea:0 "中立意识形态增长"
- bt_base_id_drift_defence_idea:0 "意识形态抵制"
+ bt_id_democratic_drift_idea:0 "民主意识形态增长"
+ bt_id_communism_drift_idea:0 "共产意识形态增长"
+ bt_id_fascism_drift_idea:0 "法西斯意识形态增长"
+ bt_id_neutrality_drift_idea:0 "中立意识形态增长"
+ bt_id_drift_defence_idea:0 "意识形态抵制"
 
  # 外交组
- bt_base_diplomacy_opinion_idea:0 "改善关系获得好感度"
- bt_base_diplomacy_opinion_factor_idea:0 "改善关系以百分比获得好感度"
- bt_base_diplomacy_opinion_same_ideology_idea:0 "相同意识形态改善关系获得好感度"
- bt_base_diplomacy_opinion_same_ideology_factor_idea:0 "相同意识形态改善关系以百分比获得好感度"
+ bt_diplomacy_opinion_idea:0 "改善关系获得好感度"
+ bt_diplomacy_opinion_factor_idea:0 "改善关系以百分比获得好感度"
+ bt_diplomacy_opinion_same_ideology_idea:0 "相同意识形态改善关系获得好感度"
+ bt_diplomacy_opinion_same_ideology_factor_idea:0 "相同意识形态改善关系以百分比获得好感度"
 
 
  # ------------------------------------------------------- #

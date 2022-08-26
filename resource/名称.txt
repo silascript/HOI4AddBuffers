@@ -25,10 +25,10 @@
 	每周人口增长： weekly_manpower
 
 意识形态：
-	民主每日支持度增长点(两位小数)：democratic_drift
-	共产每日支持度增长点(两位小数)：communism_drift
-	法西斯每日支持度增长点(两位小数)：fascism_drift
-	中立每日支持度增长点(两位小数)：neutrality_drift
+	民主每日支持度增长点(两位小数)： democratic_drift
+	共产每日支持度增长点(两位小数)： communism_drift
+	法西斯每日支持度增长点(两位小数)： fascism_drift
+	中立每日支持度增长点(两位小数)： neutrality_drift
 
 	以百分比每日增长意识形态抵制度: drift_defence_factor
 
