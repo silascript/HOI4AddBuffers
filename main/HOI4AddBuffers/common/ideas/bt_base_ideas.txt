@@ -3,19 +3,54 @@ ideas = {
 	# 基础点数 buffer
 	bt_base_ideas = {
 
+		law = yes
+
 		# 政治点 buffer
-		bt_base_polit_idea = {
+		bt_base_polit_gain_idea = {
+			modifier = {
+				political_power_gain = 0.02
+			}
 		} # 政治点 buffer
 
+		# 以百分比获得政治点 buffer
+		bt_base_polit_gain_factor_idea = {
+			modifier = {
+				political_power_factor = 0.01
+			}
+		} # 以百分比获得政治点 buffer
 
-		# 稳定度 buffer
-		bt_base_st_idea = {
-		} # 稳定度 buffer
+
+		# 每周获得稳定度 buffer
+		bt_base_st_gain_idea = {
+			modifier = {
+				stability_weekly = 0.01
+			}
+
+		} # 每周获得稳定度 buffer
+
+		# 每周获得以百分比获得稳定度 buffer
+		# bt_base_st_gain_factor_idea = {
+		# 	modifier = {
+		# 		stability_weekly_factor = 0.01	
+		# 	}
+
+		# } # 每周获得以百分比获得稳定度 buffer
 
 
-		# 战争支持度 buffer
-		bt_base_ws_idea ={
-		} # 战争支持度 buffer
+		# 每周获得战争支持度 buffer
+		bt_base_ws_gain_idea ={
+			modifier = {
+				war_support_weekly = 0.01
+			}
+		} # 每周获得战争支持度 buffer
+
+
+		# 每周以百分比获得战争支持度 buffer
+		#bt_base_ws_gain_factor_idea ={
+		#	modifier = {
+		#		stability_weekly_factor = 0.01	
+		#	}
+		# } # 每周以百分比获得战争支持度 buffer
 
 	} # 基础点 buffer
 

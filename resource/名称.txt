@@ -2,9 +2,9 @@
 
 政治(Politics)：
 
-	每日获得政治点：political_power_gain 
-	每日花费政治点：political_power_cost 
-	以百分比修正每日获得政治点(负数等于负增长)：political_power_factor 
+	每日获得政治点： political_power_gain 
+	每日花费政治点： political_power_cost 
+	以百分比修正每日获得政治点(负数等于负增长)： political_power_factor 
 
 稳点度：
 	稳定度变更： stability_factor  

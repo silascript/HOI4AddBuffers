@@ -50,9 +50,12 @@
  ###########################Buffer标题###########################
  # 基础组
  # 基础
- bt_base_polit_idea:0 "政治点增长 buffer"
- bt_base_st_idea:0 "稳定度增长 buffer"
- bt_base_ws_idea:0 "战争支持度 buffer"
+ bt_base_polit_gain_idea:0 "政治点增长"
+ bt_base_polit_gain_factor_idea:0 "§C政治点增长§!"
+ bt_base_st_gain_idea:0 "稳定度增长"
+ # bt_base_st_gain_factor_idea:0 "§C稳定度增长§!"
+ bt_base_ws_gain_idea:0 "战争支持度"
+ # bt_base_ws_gain_factor_idea:0 "§C战争支持度§!"
 
  # 意识形态组
  bt_base_id_democratic_drift_idea:0 "民主意识形态增长"

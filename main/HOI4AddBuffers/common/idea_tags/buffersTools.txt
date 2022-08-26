@@ -4,7 +4,12 @@ idea_categories = {
 	# 政治点
 	buffer_base_Idea = {
 
-		# slot = 
+		slot = bt_base_ideas
+		slot = bt_base_ideas
+		slot = bt_base_ideas
+		slot = bt_base_ideas
+		# slot = bt_base_ideas
+		# slot = bt_base_ideas
 
 		cost = 0
 		removal_cost = 0
