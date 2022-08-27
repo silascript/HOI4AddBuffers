@@ -15,8 +15,10 @@ ideas = {
 
 			# cancel_if_invalid = yes
 
-			# cost = 0
-			# removal_cost = 0
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 陆军经验 buffer
 
 
@@ -26,6 +28,9 @@ ideas = {
 				experience_gain_army_factor = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
 
 		} # 陆军以百分比获得经验 buffer
 
@@ -42,15 +47,25 @@ ideas = {
 			modifier = {
 				experience_gain_army_unit_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 以百分比获得师经验 buffer
 
 
-		# 增援率
+		# 增援率增长 buffer
 		bt_army_exp_reinforce_rate_idea = {
 			modifier = {
 				land_reinforce_rate = 0.01
 			}
-		} # 增援率
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 增援率增长 buffer
 
 	} # 陆军经验 buffer 组
 
@@ -65,6 +80,11 @@ ideas = {
 			modifier = {
 				experience_gain_navy = 0.06
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 海军经验 buffer
 
 		# 海军以百分比获得经验 buffer
@@ -72,6 +92,11 @@ ideas = {
 			modifier = {
 				experience_gain_navy_factor = 0.02
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 海军以百分比获得经验 buffer
 
 
@@ -80,6 +105,11 @@ ideas = {
 			modifier = {
 				experience_gain_navy_unit = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 舰船经验 buffer
 
 
@@ -88,6 +118,11 @@ ideas = {
 			modifier = {
 				experience_gain_navy_unit_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 舰船以百分比获得经验 buffer
 
 	} # 海军经验 buffer 组
@@ -103,6 +138,11 @@ ideas = {
 			modifier = {
 				experience_gain_air = 0.03
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 空军经验 buffer
 
 
@@ -111,6 +151,11 @@ ideas = {
 			modifier = {
 				experience_gain_air_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 空军以百分比获得经验 buffer
 
 
@@ -119,6 +164,11 @@ ideas = {
 			modifier = {
 				air_training_xp_gain_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 空军训练获得经验 buffer
 
 		# 空军王牌出现概率 buffer
@@ -126,6 +176,11 @@ ideas = {
 			modifier = {
 				air_ace_generation_chance_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 空军王牌出现概率 buffer
 
 	} # 空军经验 buffer
@@ -141,13 +196,23 @@ ideas = {
 			modifier = {
 				command_power_gain = 0.1
 			}
-		}# 指军点每日增长 buffer
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 指军点每日增长 buffer
 
 		# 指军点每日以百分比增长 buffer
 		bt_military_command_gain_mult_idea = {
 			modifier = {
 				command_power_gain_mult = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		}# 指军点每日以百分比增长 buffer
 
 	} # 指军点 buffer 组
@@ -163,12 +228,20 @@ ideas = {
 				equipment_capture_factor = 0.02
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 以百分比缴获装备 buffer
 
 		# 装备转换速度 buffer
 		bt_equipment_conversion_speed_idea = {
 			modifier = {
 				equipment_conversion_speed = 0.01	
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 装备转换速度 buffer
@@ -179,6 +252,10 @@ ideas = {
 			modifier = {
 				refit_speed = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
 			
 		} # 装备改装速度 buffer
 
@@ -186,6 +263,10 @@ ideas = {
 		bt_equipment_navy_refit_speed_idea = {
 			modifier = {
 				navy_refit_speed = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 海军装备改装速度 buffer

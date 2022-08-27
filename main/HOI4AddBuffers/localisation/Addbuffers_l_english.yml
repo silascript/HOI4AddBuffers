@@ -89,12 +89,12 @@
  # 建造组
 
  # 基建组
- bt_builder_factory_speed_infrastructure:0 "基建建造速度"
- bt_builder_factory_speed_industrial_complex:0 "民工建造速度"
- bt_builder_factory_speed_arms_factory:0 "军工建造速度"
- bt_builder_factory_speed_dockyard:0 "船坞建造速度"
- bt_builder_factory_speed_fuel_silo:0 "储油罐建造速度"
- bt_builder_factory_speed_synthetic_refinery:0 "合成炼油厂建造速度"
+ bt_builder_factory_speed_infrastructure_idea:0 "基建建造速度"
+ bt_builder_factory_speed_industrial_complex_idea:0 "民工建造速度"
+ bt_builder_factory_speed_arms_factory_idea:0 "军工建造速度"
+ bt_builder_factory_speed_dockyard_idea:0 "船坞建造速度"
+ bt_builder_factory_speed_fuel_silo_idea:0 "储油罐建造速度"
+ bt_builder_factory_speed_synthetic_refinery_idea:0 "合成炼油厂建造速度"
 
  # 防御性建筑组
  bt_builder_defender_speed_anti_air_idea:0 "防空建筑建造速度"

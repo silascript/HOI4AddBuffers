@@ -6,48 +6,77 @@ ideas = {
 		law = yes
 
 		# 基建建造 buffer
-		bt_builder_factory_speed_infrastructure = {
+		bt_builder_factory_speed_infrastructure_idea = {
 			modifier = {
 				production_speed_infrastructure_factor = 0.01		
 			}	
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 基建建造 buffer
 
 		# 民工建造速度
-		bt_builder_factory_speed_industrial_complex = {
+		bt_builder_factory_speed_industrial_complex_idea = {
 			modifier = {
 				production_speed_industrial_complex_factor = 0.01
 			}	
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 民工建造速度
 
 		# 军工建造速度
-		bt_builder_factory_speed_arms_factory = {
+		bt_builder_factory_speed_arms_factory_idea = {
 			modifier = {
 				production_speed_arms_factory_factor = 0.01
 			}	
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 军工建造速度
 
 		# 船坞建造速度
-		bt_builder_factory_speed_dockyard = {
+		bt_builder_factory_speed_dockyard_idea = {
 			modifier = {
 				production_speed_dockyard_factor = 0.01	
-			}	
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 船坞建造速度
 
 
 		# 储油罐建造速度
-		bt_builder_factory_speed_fuel_silo = {
+		bt_builder_factory_speed_fuel_silo_idea = {
 			modifier = {
 				production_speed_fuel_silo_factor = 0.01
 			}	
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 储油罐建造速度
 
 
 		# 合成炼油厂建造速度
-		bt_builder_factory_speed_synthetic_refinery = {
+		bt_builder_factory_speed_synthetic_refinery_idea = {
 			modifier = {
 				production_speed_synthetic_refinery_factor = 0.01
-			}	
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 合成炼油厂建造速度
 
 
@@ -73,13 +102,23 @@ ideas = {
 			modifier = {
 				industrial_capacity_factory = 0.01
 			}
-		}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 军工厂产出 buffer
 
 		# 船坞产出 buffer
 		bt_builder_production_dockyard_idea = {
 			modifier = {
 				industrial_capacity_dockyard = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 船坞产出 buffer
 
 
@@ -89,7 +128,12 @@ ideas = {
 			modifier = {
 				production_oil_factor = 0.01
 			}
-		} # 产出 buffer
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 合成燃料厂产出 buffer
 
 
 	} # 产出 buffer 组
@@ -108,6 +152,11 @@ ideas = {
 			modifier = {
 				production_speed_anti_air_building_factor = 0.01	
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 防空建筑建造速度 buffer
 
 
@@ -116,6 +165,11 @@ ideas = {
 			modifier = {
 				production_speed_bunker_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 陆上要塞建造速度 buffer
 
 		# 海岸要塞建造速度 buffer
@@ -123,6 +177,11 @@ ideas = {
 			modifier = {
 				production_speed_coastal_bunker_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 海岸要塞建造速度 buffer
 
 		# ----------------------修复------------------- #
@@ -165,6 +224,10 @@ ideas = {
 				production_speed_air_base_factor = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 空军基地建造速度 buffer
 
 
@@ -172,6 +235,10 @@ ideas = {
 		bt_builder_base_naval_base_speed_idea = {
 			modifier = {
 				production_speed_naval_base_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 海军基地建造速度 buffer
@@ -182,12 +249,20 @@ ideas = {
 				production_speed_rocket_site_factor = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 火箭发射井建造速度 buffer
 
 		# 核反应堆建造速度 buffer
 		bt_builder_base_nuclear_reactor_speed_idea = {
 			modifier = {
 				production_speed_nuclear_reactor_factor = 0.01	
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 核反应堆建造速度 buffer
@@ -207,12 +282,20 @@ ideas = {
 				industry_repair_factor = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 建筑物的修复速度 buffer
 
 		# 修理船速度 buffer
 		bt_builder_repair_ships_speed_idea = {
 			modifier = {
 				repair_speed_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 修理船速度 buffer

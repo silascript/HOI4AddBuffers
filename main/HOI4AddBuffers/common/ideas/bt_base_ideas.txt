@@ -10,6 +10,11 @@ ideas = {
 			modifier = {
 				political_power_gain = 0.02
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 政治点 buffer
 
 		# 以百分比获得政治点 buffer
@@ -17,6 +22,11 @@ ideas = {
 			modifier = {
 				political_power_factor = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 以百分比获得政治点 buffer
 
 
@@ -24,6 +34,10 @@ ideas = {
 		bt_base_st_gain_idea = {
 			modifier = {
 				stability_weekly = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 每周获得稳定度 buffer
@@ -42,6 +56,11 @@ ideas = {
 			modifier = {
 				war_support_weekly = 0.01
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 每周获得战争支持度 buffer
 
 
@@ -57,6 +76,11 @@ ideas = {
 			modifier = {
 				weekly_manpower = 500
 			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 每周人口增长 buffer
 
 	} # 基础点 buffer
@@ -73,6 +97,10 @@ ideas = {
 				democratic_drift = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 民主意识形态增长
 
 
@@ -82,12 +110,20 @@ ideas = {
 				communism_drift = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 共产意识形态增长
 
 		# 法西斯意识形态增长
 		bt_id_fascism_drift_idea = {
 			modifier = {
 				fascism_drift = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 法西斯意识形态增长
@@ -99,12 +135,20 @@ ideas = {
 				neutrality_drift = 0.01
 			}
 
+			ai_will_do = {
+				factor = 0
+			}
+
 		} # 中立意识形态增长
 
 		# 意识形态抵制
 		bt_id_drift_defence_idea = {
 			modifier = {
 				drift_defence_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 意识形态抵制
@@ -122,13 +166,16 @@ ideas = {
 		#	modifier = {
 		#		opinion_gain_monthly = 2
 		#	}
-			
 		# } # 每月改善关系获得好感度
 
 		# 每月改善关系以百分比获得好感度
 		bt_diplomacy_opinion_factor_idea = {
 			modifier = {
 				opinion_gain_monthly_factor = 0.1 	
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 
 		} # 每月改善关系以百分比获得好感度
@@ -147,6 +194,10 @@ ideas = {
 		bt_diplomacy_opinion_same_ideology_factor_idea = {
 			modifier = {
 				opinion_gain_monthly_same_ideology_factor = 0.15	
+			}
+
+			ai_will_do = {
+				factor = 0
 			}
 		
 		} # 相同意识形态改善关系以百分比获得好感度
