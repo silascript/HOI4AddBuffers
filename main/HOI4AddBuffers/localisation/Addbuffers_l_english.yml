@@ -3,6 +3,7 @@
  buffer_base_Idea:0 "基础 Buffer"
  buffer_ideology_Idea:0 "意识形态 Buffer"
  buffer_diplomacy_Idea:0 "外交 Buffer"
+ buffer_intelligence_Idea:0 "情报 Buffer"
  buffer_builder_factory_Idea:0 "工厂建造 Buffer"
  buffer_builder_defender_Idea:0 "防御性建筑 Buffer"
  buffer_builder_base_Idea:0 "基地建造 Buffer"
@@ -59,6 +60,11 @@
  # 燃油组
  # bt_fuel_consumption_ideas:0 "燃油消耗 buffer"
  bt_fuel_gain_ideas:0 "燃油增长 buffer"
+
+
+ # ------------------------------------------------------- #
+ # 情报组
+ bt_intelligence_ideas:0 "情报 buffer"
 
  ###########################Buffer标题###########################
  # 基础组
@@ -168,4 +174,12 @@
  bt_fuel_base_gain_factor_idea:0 "§C基础燃油增长§!"
  bt_fuel_max_gain_idea:0 "燃油容量增长"
  bt_fuel_max_gain_factor_idea:0 "§C燃油容量增长§!"
+
+
+ # ------------------------------------------------------- #
+ # 情报组
+ bt_intelligence_intel_network_gain_idea:0 "情报网强度增长"
+ bt_intelligence_intel_network_gain_factor_idea:0 "§C情报网强度增长§!"
+ bt_intelligence_extract_intel_rate_idea:0 "获得敌方情报速率"
+
 

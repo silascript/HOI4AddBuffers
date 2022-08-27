@@ -335,3 +335,11 @@ experience_gain_guided_missile_combat_factor
  装备整修速度： refit_speed
  海军装备改装速度： navy_refit_speed
 
+
+ ///////////////////////////////////////////////////////
+ 
+ 情报(Intelligence)：
+ 情报网强度增长： intel_network_gain
+ 情报网强度以百分比增长： intel_network_gain_factor
+ 我方特工获取情报的速率： own_operative_intel_extraction_rate
+

@@ -198,4 +198,19 @@ idea_categories = {
 		
 	} # 燃油栏
 
+	# ------------------------------------------------------ #
+
+	# 情报 buffer 栏
+	buffer_intelligence_Idea = {
+
+		slot = bt_intelligence_ideas
+		slot = bt_intelligence_ideas
+		slot = bt_intelligence_ideas
+
+		cost = 0 
+		removal_cost = 0
+
+	} # 情报 buffer 栏
+
+
 }

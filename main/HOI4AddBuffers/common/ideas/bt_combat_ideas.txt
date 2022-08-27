@@ -1,0 +1,49 @@
+ideas = {
+	
+	# 情报组 buffer	
+	bt_intelligence_ideas = {
+
+		law = yes
+
+		# 情报网强度增长 buffer
+		bt_intelligence_intel_network_gain_idea = {
+			modifier = {
+				intel_network_gain = 0.2
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 情报网强度增长 buffer
+
+
+		# 情报网强度以百分比增长 buffer
+		bt_intelligence_intel_network_gain_factor_idea = {
+			modifier = {
+				intel_network_gain_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 情报网强度以百分比增长 buffer
+
+
+		# 获得敌方情报速率 buffer
+		bt_intelligence_extract_intel_rate_idea = {
+			modifier = {
+				own_operative_intel_extraction_rate = 0.02	
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 获得敌方情报速率 buffer
+
+	} # 情报组 buffer
+
+
+}
