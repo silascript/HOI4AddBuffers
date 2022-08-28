@@ -45,5 +45,50 @@ ideas = {
 
 	} # 情报组 buffer
 
+	# ------------------------------------------------ #
+	# 陆战 buffer
+	bt_land_combat_ideas = {
+
+		law = yes
+
+		# 陆军攻击力、防御力及速度 buffer
+		bt_land_combat_ads_idea = {
+			modifier = {
+				army_attack_factor = 0.01
+				army_defence_factor = 0.01
+				army_speed_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 陆军攻击力、防御力及速度 buffer
+
+
+	} # 陆战 buffer
+
+	# ------------------------------------------------ #
+	
+	# 海战 buffer
+	bt_naval_combat_ideas = {
+	
+		law = yes
+
+		
+	} # 海战 buffer
+
+
+
+	# ------------------------------------------------ #
+
+	# 空战 buffer
+	bt_air_combat_ideas = {
+	
+		law = yes
+
+		
+	} # 空战 buffer
+
 
 }

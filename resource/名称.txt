@@ -343,3 +343,21 @@ experience_gain_guided_missile_combat_factor
  情报网强度以百分比增长： intel_network_gain_factor
  我方特工获取情报的速率： own_operative_intel_extraction_rate
 
+
+ ///////////////////////////////////////////////////////
+
+ 战斗：
+ 陆战：
+ 陆军攻击力： army_attack_factor
+ 陆军防御力： army_defence_factor
+ 陆军移动速度： army_speed_factor
+ 陆军组织度以百分比恢复： army_org_regain
+ 训练时间： training_time_factor
+ 计划速度： planning_speed
+
+ 海战：
+
+
+
+
+ 空战：

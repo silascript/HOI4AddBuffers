@@ -212,5 +212,38 @@ idea_categories = {
 
 	} # 情报 buffer 栏
 
+	# ------------------------------------------------------ #
+
+	# 陆战 buffer 栏
+	buffer_land_combat_Idea = {
+
+		slot = bt_land_combat_ads_idea
+
+		cost = 0 
+		removal_cost = 0
+
+	} # 陆战 buffer 栏
+
+	# 海战 buffer 栏
+	buffer_naval_combat_Idea = {
+
+		# slot = 
+
+		cost = 0 
+		removal_cost = 0
+
+	} # 海战 buffer 栏
+
+
+
+	# 空战 buffer 栏
+	buffer_air_combat_Idea = {
+
+		# slot = 
+
+		cost = 0 
+		removal_cost = 0
+
+	} # 空战 buffer 栏
 
 }
