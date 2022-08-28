@@ -351,13 +351,38 @@ experience_gain_guided_missile_combat_factor
  陆军攻击力： army_attack_factor
  陆军防御力： army_defence_factor
  陆军移动速度： army_speed_factor
+ 陆军增援速度： land_reinforce_rate 
+
+ 陆军核心领土攻击力： army_core_attack_factor
+ 陆军核心领土防御力： army_core_defence_factor
+
+ 陆军最大组织度加成： army_org_factor
  陆军组织度以百分比恢复： army_org_regain
+ 陆军士气以百分比修正： army_morale_factor
+ 战壕以百分比完成： dig_in_speed_factor 
+ 陆军突破： breakthrough_factor
+
  训练时间： training_time_factor
+ 师训练时间： training_time_army_factor
+ 注意： 
+ training_time_factor 与 training_time_army_factor 的效果不会是绝对等同
+ 如果设置 training_time_factor=-0.5，training_time_factor=-0.5 它花费的时间与 training_time_factor=-1 一样
+ training_time_factor 与 training_time_factor 累计起来的数值不能小于-1，否则便会出现无法练兵的bug
+
+ 最大计划加成： max_planning
+ 最大计划加成： max_planning_factor
  计划速度： planning_speed
 
  海战：
 
-
+ 船的组织度： naval_morale_factor
+ 船的速度： naval_speed_factor
 
 
  空战：
+ 战机对空攻击力： air_attack_factor
+ 战机对空防御力： air_defence_factor
+ 战机对地攻击： ground_attack_factor
+
+
+

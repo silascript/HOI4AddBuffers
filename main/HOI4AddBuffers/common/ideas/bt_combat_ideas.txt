@@ -51,19 +51,68 @@ ideas = {
 
 		law = yes
 
-		# 陆军攻击力、防御力及速度 buffer
-		bt_land_combat_ads_idea = {
+		# 陆军攻击力 buffer
+		bt_land_combat_attack_idea = {
 			modifier = {
 				army_attack_factor = 0.01
-				army_defence_factor = 0.01
 				army_speed_factor = 0.01
+				# 突破
+				breakthrough_factor = 0.01
+				# 增援速度
+				land_reinforce_rate = 0.01
 			}
 
 			ai_will_do = {
 				factor = 0
 			}
 
-		} # 陆军攻击力、防御力及速度 buffer
+		} # 陆军攻击力 buffer
+
+
+		# 陆军防御力 buffer
+		bt_land_combat_defence_idea = {
+			modifier = {
+				army_defence_factor = 0.01
+				# 战壕工事速度
+				dig_in_speed_factor = 0.01
+
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 陆军防御力 buffer
+
+
+		# 陆军核心领土的攻、防 buffer
+		bt_land_combat_core_ad_idea = {
+
+			modifier = {
+				army_core_attack_factor = 0.08
+				army_core_defence_factor = 0.08
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 陆军核心领土的攻、防 buffer
+
+		# 陆军组织度恢复 buffer
+		bt_land_combat_org_regain_idea = {
+
+			modifier = {
+				army_org_factor = 0.03
+				army_org_regain = 0.01
+				army_morale_factor = 0.02
+			}
+
+			ai_will_do = {
+				factor = 0
+			}	
+
+		} # 陆军组织度恢复 buffer
 
 
 	} # 陆战 buffer
@@ -74,6 +123,20 @@ ideas = {
 	bt_naval_combat_ideas = {
 	
 		law = yes
+
+		# 海军增强 buffer
+		bt_naval_combat_enhance_idea = {
+
+			modifier = {
+				naval_morale_factor = 0.01
+				naval_speed_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 海军增强 buffer
 
 		
 	} # 海战 buffer
@@ -86,6 +149,20 @@ ideas = {
 	bt_air_combat_ideas = {
 	
 		law = yes
+
+		# 空军攻击力 buffer
+		bt_air_combat_attack_idea = {
+
+			modifier = {
+				air_attack_factor = 0.01
+				ground_attack_factor = 0.01
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 空军攻击力 buffer
 
 		
 	} # 空战 buffer

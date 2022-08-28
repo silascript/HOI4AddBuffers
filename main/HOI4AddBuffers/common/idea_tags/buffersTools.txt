@@ -217,7 +217,10 @@ idea_categories = {
 	# 陆战 buffer 栏
 	buffer_land_combat_Idea = {
 
-		slot = bt_land_combat_ads_idea
+		slot = bt_land_combat_ideas
+		slot = bt_land_combat_ideas
+		slot = bt_land_combat_ideas
+		slot = bt_land_combat_ideas
 
 		cost = 0 
 		removal_cost = 0
@@ -227,7 +230,7 @@ idea_categories = {
 	# 海战 buffer 栏
 	buffer_naval_combat_Idea = {
 
-		# slot = 
+		slot = bt_naval_combat_ideas
 
 		cost = 0 
 		removal_cost = 0
@@ -239,7 +242,7 @@ idea_categories = {
 	# 空战 buffer 栏
 	buffer_air_combat_Idea = {
 
-		# slot = 
+		slot = bt_air_combat_ideas
 
 		cost = 0 
 		removal_cost = 0

@@ -80,8 +80,15 @@
  # 情报组
  bt_intelligence_ideas:0 "情报 buffer"
 
+ # ------------------------------------------------------- #
  # 陆战组
  bt_land_combat_ideas:0 "陆战 buffer"
+ 
+ # 海战组
+ bt_naval_combat_ideas:0 "海战 buffer"
+
+ # 空战组
+ bt_air_combat_ideas:0 "空战 buffer"
 
  ###########################Buffer标题###########################
  # 基础组
@@ -199,4 +206,22 @@
  bt_intelligence_intel_network_gain_factor_idea:0 "§C情报网强度增长§!"
  bt_intelligence_extract_intel_rate_idea:0 "获得敌方情报速率"
 
+ 
+ # ------------------------------------------------------- #
+ # 战斗组
+ # 陆战组
+ bt_land_combat_attack_idea:0 "陆军攻击力"
+ bt_land_combat_defence_idea:0 "陆军防御力"
+ bt_land_combat_core_ad_idea:0 "陆军核心领土攻防"
+ bt_land_combat_org_regain_idea:0 "§C陆军组织度恢复§!"
+
+
+
+ # 海战组
+ bt_naval_combat_enhance_idea:0 "海军增强"
+ 
+ # 空战组
+ bt_air_combat_attack_idea:0 "空军攻击力"
+
+ 
 
