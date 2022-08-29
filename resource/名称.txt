@@ -321,6 +321,8 @@ experience_gain_guided_missile_combat_factor
 ///////////////////////////////////////////////////////////
 
 技术研究速度(百分比)： research_speed_factor
+技术隽奖励： research_sharing_per_country_bonus
+技术共享奖励(百分比)： research_sharing_per_country_bonus_factor
 
 
 

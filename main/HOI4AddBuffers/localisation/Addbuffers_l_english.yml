@@ -4,6 +4,7 @@
  buffer_base_Idea:0 "基础 Buffer"
  buffer_ideology_Idea:0 "意识形态 Buffer"
  buffer_diplomacy_Idea:0 "外交 Buffer"
+ buffer_research_Idea:0 "科研 Buffer"
  
  # 情报
  buffer_intelligence_Idea:0 "情报 Buffer"
@@ -34,6 +35,7 @@
  bt_base_ideas:0 "基础点 buffer"
  bt_ideology_ideas:0 "意识形态 buffer"
  bt_diplomacy_ideas:0 "外交 buffer"
+ bt_research_ideas:0 "科研 buffer"
 
  # ------------------------------------------------------- #
  # 工厂建造组
@@ -113,7 +115,9 @@
  bt_diplomacy_opinion_factor_idea:0 "§C获得好感度§!"
  # bt_diplomacy_opinion_same_ideology_idea:0 "相同意识形态好感度"
  bt_diplomacy_opinion_same_ideology_factor_idea:0 "§C相同意识形态好感度§!"
-
+ 
+ # 科研组
+ bt_research_speed_idea:0 "科研加速"
 
  # ------------------------------------------------------- #
  # 建造组

@@ -205,4 +205,26 @@ ideas = {
 	} # 外交 buffer
 
 
+	# 科研 buffer
+	bt_research_ideas = {
+
+		law = yes
+
+		# 科研速度 buffer
+		bt_research_speed_idea = {
+
+			modifier = {
+				research_speed_factor = 0.03
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+			
+		} # 科研速度 buffer
+
+
+	} # 科研 buffer
+
+
 }

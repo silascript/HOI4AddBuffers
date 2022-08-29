@@ -41,6 +41,16 @@ idea_categories = {
 
 	} # 外交 Buffer 栏
 
+	# 科研 Buffer 栏
+	buffer_research_Idea = {
+
+		slot = bt_research_ideas
+
+		cost = 0
+		removal_cost = 0
+
+	} # 科研 Buffer 栏
+
 
 	# ------------------------------------------------------ #
 
