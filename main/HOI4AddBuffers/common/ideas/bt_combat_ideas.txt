@@ -43,6 +43,22 @@ ideas = {
 
 		} # 获得敌方情报速率 buffer
 
+		# 国家加密解密 buffer
+		bt_intelligence_cryption_factor_idea = {
+
+			modifier = {
+				# 解密
+				decryption_factor = 0.02
+				# 加密
+				encryption_factor = 0.02
+			}
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 国家加密解密 buffer
+
 	} # 情报组 buffer
 
 	# ------------------------------------------------ #

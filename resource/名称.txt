@@ -344,6 +344,8 @@ experience_gain_guided_missile_combat_factor
  情报网强度增长： intel_network_gain
  情报网强度以百分比增长： intel_network_gain_factor
  我方特工获取情报的速率： own_operative_intel_extraction_rate
+ 以百分比提高国家解密能力： decryption_factor
+ 以百分比提高国家加密能力： encryption_factor
 
 
  ///////////////////////////////////////////////////////
