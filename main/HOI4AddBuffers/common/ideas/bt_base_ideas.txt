@@ -226,7 +226,54 @@ ideas = {
 		} # 科研速度 buffer
 
 
+		# 步兵装备研发加成 buffer
+		bt_research_equipment_infantry_idea = {
+			picture = generic_goods_red_bonus
+
+			modifier = {}
+
+			research_bonus = { infantry_weapons = 0.05 }
+			research_bonus = { artillery = 0.05 }
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 步兵装备研发加成 buffer
+
+		# 空军研发加成 buffer
+		bt_research_air_idea = {
+
+			picture = generic_air_bonus
+
+			modifier = {}
+			
+			research_bonus = { air_equipment= 0.05 }
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 空军研发加成 buffer
+
+		# 海军研发加成 buffer
+		bt_research_navy_idea = {
+
+			picture = generic_navy_bonus
+
+			modifier = {}
+
+			research_bonus = { naval_equipment = 0.05 }
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 海军研发加成 buffer
+
+
 	} # 科研 buffer
+
 
 
 }

@@ -36,6 +36,7 @@
  bt_ideology_ideas:0 "意识形态 buffer"
  bt_diplomacy_ideas:0 "外交 buffer"
  bt_research_ideas:0 "科研 buffer"
+ # bt_research_bonus_ideas:0 "研发加成 buffer"
 
  # ------------------------------------------------------- #
  # 工厂建造组
@@ -118,6 +119,9 @@
  
  # 科研组
  bt_research_speed_idea:0 "科研加速"
+ bt_research_equipment_infantry_idea:0 "步兵研发加成"
+ bt_research_air_idea:0 "空军研发加成"
+ bt_research_navy_idea:0 "海军研发加成"
 
  # ------------------------------------------------------- #
  # 建造组

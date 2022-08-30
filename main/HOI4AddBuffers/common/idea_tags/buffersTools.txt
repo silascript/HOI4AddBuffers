@@ -45,6 +45,9 @@ idea_categories = {
 	buffer_research_Idea = {
 
 		slot = bt_research_ideas
+		slot = bt_research_ideas
+		slot = bt_research_ideas
+		slot = bt_research_ideas
 
 		cost = 0
 		removal_cost = 0
