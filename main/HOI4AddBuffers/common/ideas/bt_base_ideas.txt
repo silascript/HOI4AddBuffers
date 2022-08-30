@@ -228,18 +228,34 @@ ideas = {
 
 		# 步兵装备研发加成 buffer
 		bt_research_equipment_infantry_idea = {
-			picture = generic_goods_red_bonus
+			picture = generic_infantry_bonus
 
 			modifier = {}
 
 			research_bonus = { infantry_weapons = 0.05 }
 			research_bonus = { artillery = 0.05 }
+			research_bonus = { support_tech = 0.05 }
 
 			ai_will_do = {
 				factor = 0
 			}
 
 		} # 步兵装备研发加成 buffer
+
+		# 装甲研发加成 buffer
+		bt_research_armor_motorized_idea = {
+			picture = generic_goods_red_bonus
+
+			modifier = {}	
+
+			research_bonus = { armor = 0.05 }
+	        research_bonus = { motorized_equipment = 0.05 }
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 装甲研发加成 buffer
 
 		# 空军研发加成 buffer
 		bt_research_air_idea = {
@@ -271,6 +287,51 @@ ideas = {
 
 		} # 海军研发加成 buffer
 
+		# 电子科技研发加成 buffer
+		bt_research_electronics_idea = {
+
+			picture = generic_pp_unity_bonus
+
+			modifier = {}
+
+			research_bonus = { electronics = 0.05 }
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 电子科技研发加成 buffer
+
+		# 工业研发加成 buffer
+		bt_research_industry_idea = {
+
+			picture = generic_production_bonus
+
+			modifier = {}
+
+			research_bonus = { industry = 0.03 }
+
+			ai_will_do = {
+				factor = 0
+			}
+				
+		} # 工业研发加成 buffer
+
+		# 火箭核能研发加成 buffer
+		bt_research_nuclear_rocketry_idea = {
+
+			picture = generic_economic_increase
+
+			modifier = {}
+
+			research_bonus = { nuclear = 0.02 }
+			research_bonus = { rocketry = 0.03 }
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 火箭核能研发加成 buffer
 
 	} # 科研 buffer
 

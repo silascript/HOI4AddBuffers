@@ -48,6 +48,8 @@ idea_categories = {
 		slot = bt_research_ideas
 		slot = bt_research_ideas
 		slot = bt_research_ideas
+		slot = bt_research_ideas
+		slot = bt_research_ideas
 
 		cost = 0
 		removal_cost = 0
