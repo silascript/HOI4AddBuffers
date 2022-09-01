@@ -141,6 +141,7 @@ idea_categories = {
 		slot = bt_army_exp_ideas
 		slot = bt_army_exp_ideas
 		slot = bt_army_exp_ideas
+		slot = bt_army_exp_ideas
 
 		# 指挥点 buffer 组
 		slot = bt_military_command_ideas
