@@ -12,6 +12,7 @@
  # 建造 
  buffer_builder_factory_Idea:0 "工厂建造 Buffer"
  buffer_builder_defender_Idea:0 "防御性建筑 Buffer"
+ buffer_builder_supply_Idea:0 "补给系统 Buffer"
  buffer_builder_base_Idea:0 "基地建造 Buffer"
  buffer_builder_repair_Idea:0 "修复 Buffer"
 
@@ -47,6 +48,9 @@
 
  # 防御性建筑组
  bt_builder_defender_ideas:0 "防御性建筑 buffer"
+
+# 补给系统建筑组
+ bt_builder_supply_ideas:0 "补给系统建造 buffer"
 
  # 基地组
  bt_builder_base_ideas:0 "基地建筑 buffer"
@@ -146,6 +150,9 @@
  # bt_builder_defender_repair_speed_bunker_idea:0 "地堡修复速度"
  # bt_builder_defender_repair_speed_coastal_bunker_idea:0 "海岸地堡修复速度"
 
+ # 补给系统建造组
+ bt_builder_supply_rail_way_speed_idea:0 "铁路建造速度"
+ bt_builder_supply_supply_node_speed_idea:0 "补给中心建造速度"
 
  # 产出组
  # bt_build_production_factory_efficiency_gain_idea:0 "工厂产出效率增长"

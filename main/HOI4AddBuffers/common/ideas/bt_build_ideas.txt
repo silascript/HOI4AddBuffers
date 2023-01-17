@@ -210,6 +210,44 @@ ideas = {
 
 	} # 防御性建筑 buffer 组
 
+	# --------------------------------------------------------- #
+
+	# 补给系统 buffer 组
+	bt_builder_supply_ideas = {
+		
+		law = yes
+
+		# 铁路建造速度 buffer
+		bt_builder_supply_rail_way_speed_idea = {
+			
+			modifier = {
+				state_production_speed_rail_way_factor = 0.01
+			}	
+
+			ai_will_do = {
+				factor = 0
+			}
+		
+		} # 铁路建造速度 buffer
+
+
+		# 补给中心建造速度 buffer
+		bt_builder_supply_supply_node_speed_idea = {
+
+			modifier = {
+				state_production_speed_supply_node_factor = 0.01
+			}
+
+
+			ai_will_do = {
+				factor = 0
+			}
+
+		} # 补给中心建造速度 buffer
+
+		
+	} # 补给系统 buffer 组
+
 
 	# --------------------------------------------------------- #
 

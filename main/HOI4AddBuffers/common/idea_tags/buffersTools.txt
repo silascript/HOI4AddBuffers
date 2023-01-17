@@ -82,15 +82,26 @@ idea_categories = {
 		slot = bt_builder_defender_ideas 
 		slot = bt_builder_defender_ideas 
 		slot = bt_builder_defender_ideas 
-		slot = bt_builder_defender_ideas 
-		slot = bt_builder_defender_ideas 
-		slot = bt_builder_defender_ideas 
+		# slot = bt_builder_defender_ideas 
+		# slot = bt_builder_defender_ideas 
+		# slot = bt_builder_defender_ideas 
 
 
 		cost = 0
 		removal_cost = 0
 
 	} # 防御性建筑 建造 buffer
+
+	# 补给系统建筑 建造 buffer
+	buffer_builder_supply_Idea = {
+
+		slot = bt_builder_supply_ideas
+		slot = bt_builder_supply_ideas
+
+		cost =0
+		removal_cost = 0
+
+	} # 补给系统建筑 建造 buffer
 
 	# 产出 buffer
 	buffer_production_Idea = {
