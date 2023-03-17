@@ -223,7 +223,7 @@
  # 情报组
  bt_intelligence_intel_network_gain_idea:0 "情报网强度增长"
  bt_intelligence_intel_network_gain_factor_idea:0 "§C情报网强度增长§!"
- bt_intelligence_extract_intel_rate_idea:0 "获得敌方情报速率"
+ # bt_intelligence_extract_intel_rate_idea:0 "获得敌方情报速率"
  bt_intelligence_cryption_factor_idea:0 "加密解密加速"
 
  

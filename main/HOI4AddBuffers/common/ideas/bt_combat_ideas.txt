@@ -32,16 +32,16 @@ ideas = {
 
 
 		# 获得敌方情报速率 buffer
-		bt_intelligence_extract_intel_rate_idea = {
-			modifier = {
-				own_operative_intel_extraction_rate = 0.02	
-			}
+		# bt_intelligence_extract_intel_rate_idea = {
+		# 	modifier = {
+		# 		own_operative_intel_extraction_rate = 0.02	
+		# 	}
 
-			ai_will_do = {
-				factor = 0
-			}
+		# 	ai_will_do = {
+		# 		factor = 0
+		# 	}
 
-		} # 获得敌方情报速率 buffer
+		# } # 获得敌方情报速率 buffer
 
 		# 国家加密解密 buffer
 		bt_intelligence_cryption_factor_idea = {
@@ -105,8 +105,8 @@ ideas = {
 		bt_land_combat_core_ad_idea = {
 
 			modifier = {
-				army_core_attack_factor = 0.08
-				army_core_defence_factor = 0.08
+				army_core_attack_factor = 0.03
+				army_core_defence_factor = 0.03
 			}
 
 			ai_will_do = {
@@ -119,7 +119,7 @@ ideas = {
 		bt_land_combat_org_regain_idea = {
 
 			modifier = {
-				army_org_factor = 0.03
+				army_org_factor = 0.02
 				army_org_regain = 0.01
 				army_morale_factor = 0.02
 			}

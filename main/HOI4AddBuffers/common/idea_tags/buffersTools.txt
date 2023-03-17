@@ -233,7 +233,7 @@ idea_categories = {
 		slot = bt_intelligence_ideas
 		slot = bt_intelligence_ideas
 		slot = bt_intelligence_ideas
-		slot = bt_intelligence_ideas
+		# slot = bt_intelligence_ideas
 
 		cost = 0 
 		removal_cost = 0
