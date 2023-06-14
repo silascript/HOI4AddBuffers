@@ -1,0 +1,247 @@
+﻿l_simp_chinese:
+ ###########################栏标题###########################
+ # 基础点
+ buffer_base_Idea:0 "基础 Buffer"
+ buffer_ideology_Idea:0 "意识形态 Buffer"
+ buffer_diplomacy_Idea:0 "外交 Buffer"
+ buffer_research_Idea:0 "科研 Buffer"
+ 
+ # 情报
+ buffer_intelligence_Idea:0 "情报 Buffer"
+  
+ # 建造 
+ buffer_builder_factory_Idea:0 "工厂建造 Buffer"
+ buffer_builder_defender_Idea:0 "防御性建筑 Buffer"
+ buffer_builder_supply_Idea:0 "补给系统 Buffer"
+ buffer_builder_base_Idea:0 "基地建造 Buffer"
+ buffer_builder_repair_Idea:0 "修复 Buffer"
+
+ # 工厂产出 
+ buffer_production_Idea:0 "产出 Buffer"
+ buffer_fuel_Idea:0 "燃油 Buffer"
+
+ # 三军经验点等
+ buffer_army_Idea:0 "陆军 Buffer"
+ buffer_navy_Idea:0 "海军 Buffer"
+ buffer_air_Idea:0 "空军 Buffer"
+ buffer_equipment_Idea:0 "装备 Buffer"
+ 
+ # 战斗
+ buffer_land_combat_Idea:0 "陆战 Buffer"
+ buffer_naval_combat_Idea:0 "海战 Buffer"
+ buffer_air_combat_Idea:0 "空战 Buffer"
+
+ ###########################组标题###########################
+ # 基础组
+ bt_base_ideas:0 "基础点 buffer"
+ bt_ideology_ideas:0 "意识形态 buffer"
+ bt_diplomacy_ideas:0 "外交 buffer"
+ bt_research_ideas:0 "科研 buffer"
+ # bt_research_bonus_ideas:0 "研发加成 buffer"
+
+ # ------------------------------------------------------- #
+ # 工厂建造组
+ bt_builder_factory_ideas:0 "工厂建造 buffer"
+
+ # 产出组
+ bt_builder_production_ideas:0 "工厂产出 buffer"
+
+ # 防御性建筑组
+ bt_builder_defender_ideas:0 "防御性建筑 buffer"
+
+# 补给系统建筑组
+ bt_builder_supply_ideas:0 "补给系统建造 buffer"
+
+ # 基地组
+ bt_builder_base_ideas:0 "基地建筑 buffer"
+
+ # 修复组
+ bt_builder_repair_ideas:0 "修复 buffer"
+
+ # ------------------------------------------------------- #
+ # 军事 
+ # 三军经验组
+ # 陆军组
+ bt_army_exp_ideas:0 "陆军经验 buffer"
+
+ # 海军组
+ bt_navy_exp_ideas:0 "海军经验 buffer"
+
+ # 空军组
+ bt_air_exp_ideas:0 "空军经验 buffer"
+ 
+ # 指控组
+ bt_military_command_ideas:0 "指控点 buffer"
+
+ # 装备组
+ bt_equipment_ideas:0 "装备 buffer"
+
+
+ # ------------------------------------------------------- #
+ # 燃油组
+ # bt_fuel_consumption_ideas:0 "燃油消耗 buffer"
+ bt_fuel_gain_ideas:0 "燃油增长 buffer"
+
+
+ # ------------------------------------------------------- #
+ # 情报组
+ bt_intelligence_ideas:0 "情报 buffer"
+
+ # ------------------------------------------------------- #
+ # 陆战组
+ bt_land_combat_ideas:0 "陆战 buffer"
+ 
+ # 海战组
+ bt_naval_combat_ideas:0 "海战 buffer"
+
+ # 空战组
+ bt_air_combat_ideas:0 "空战 buffer"
+
+ ###########################Buffer标题###########################
+ # 基础组
+ # 基础
+ bt_base_polit_gain_idea:0 "政治点增长"
+ bt_base_polit_gain_factor_idea:0 "§C政治点增长§!"
+ bt_base_st_gain_idea:0 "稳定度增长"
+ # bt_base_st_gain_factor_idea:0 "§C稳定度增长§!"
+ bt_base_ws_gain_idea:0 "战争支持度"
+ # bt_base_ws_gain_factor_idea:0 "§C战争支持度§!"
+ bt_base_manpower_gain_idea:0 "人口增长"
+
+ # 意识形态组
+ bt_id_democratic_drift_idea:0 "民主意识形态增长"
+ bt_id_communism_drift_idea:0 "共产意识形态增长"
+ bt_id_fascism_drift_idea:0 "法西斯意识形态增长"
+ bt_id_neutrality_drift_idea:0 "中立意识形态增长"
+ bt_id_drift_defence_idea:0 "意识形态抵制"
+
+ # 外交组
+ # bt_diplomacy_opinion_idea:0 "获得好感度"
+ bt_diplomacy_opinion_factor_idea:0 "§C获得好感度§!"
+ # bt_diplomacy_opinion_same_ideology_idea:0 "相同意识形态好感度"
+ bt_diplomacy_opinion_same_ideology_factor_idea:0 "§C相同意识形态好感度§!"
+ 
+ # 科研组
+ bt_research_speed_idea:0 "科研加速"
+ bt_research_equipment_infantry_idea:0 "步兵研发加成"
+ bt_research_armor_motorized_idea:0 "装甲研发加成"
+ bt_research_air_idea:0 "空军研发加成"
+ bt_research_navy_idea:0 "海军研发加成"
+ bt_research_electronics_idea:0 "电子技术研发加成"
+ bt_research_industry_idea:0 "工业研发加成"
+ bt_research_nuclear_rocketry_idea:0 "核能火箭研发加成"
+
+ # ------------------------------------------------------- #
+ # 建造组
+
+ # 基建组
+ bt_builder_factory_speed_infrastructure_idea:0 "基建建造速度"
+ bt_builder_factory_speed_industrial_complex_idea:0 "民工建造速度"
+ bt_builder_factory_speed_arms_factory_idea:0 "军工建造速度"
+ bt_builder_factory_speed_dockyard_idea:0 "船坞建造速度"
+ bt_builder_factory_speed_fuel_silo_idea:0 "储油罐建造速度"
+ bt_builder_factory_speed_synthetic_refinery_idea:0 "合成炼油厂建造速度"
+
+ # 防御性建筑组
+ bt_builder_defender_speed_anti_air_idea:0 "防空建筑建造速度"
+ bt_builder_defender_speed_bunker_idea:0 "陆上要塞建造速度"
+ bt_builder_defender_speed_coastal_bunker_idea:0 "海岸要塞建造速度"
+ # bt_builder_defender_repair_speed_anti_air_idea:0 "防空建筑修复速度"
+ # bt_builder_defender_repair_speed_bunker_idea:0 "地堡修复速度"
+ # bt_builder_defender_repair_speed_coastal_bunker_idea:0 "海岸地堡修复速度"
+
+ # 补给系统建造组
+ bt_builder_supply_rail_way_speed_idea:0 "铁路建造速度"
+ bt_builder_supply_supply_node_speed_idea:0 "补给中心建造速度"
+
+ # 产出组
+ # bt_build_production_factory_efficiency_gain_idea:0 "工厂产出效率增长"
+ bt_builder_production_factory_idea:0 "军工产出"
+ bt_builder_production_dockyard_idea:0 "船坞产出"
+ bt_builder_production_synthetic_oil_idea:0 "合成燃油产出"
+
+ # 基地组
+ bt_builder_base_air_base_speed_idea:0 "空军基地建造"
+ bt_builder_base_naval_base_speed_idea:0 "海军基地建造"
+ bt_builder_base_rocket_site_speed_idea:0 "火箭发射井建造"
+ bt_builder_base_nuclear_reactor_speed_idea:0 "核反应堆建造"
+
+ # 修复组
+ bt_builder_repair_industry_speed_idea:0 "建筑物修复"
+ bt_builder_repair_ships_speed_idea:0 "船坞修船"
+
+
+ # ------------------------------------------------------- #
+ # 军事组
+ # 军经验组
+
+ # 陆军经验 buffer
+ bt_army_exp_gain_idea:0 "陆军经验"
+ bt_army_exp_gain_factor_idea:0 "§C陆军经验§!"
+ # bt_army_exp_gain_unit_idea:0 "师经验"
+ bt_army_exp_gain_unit_factor_idea:0 "§C师经验§!"
+ bt_army_exp_reinforce_rate_idea:0 "增援率"
+
+ 
+ # 海军经验 buffer
+ bt_navy_exp_gain_idea:0 "海军经验"
+ bt_navy_exp_gain_factor_idea:0 "§C海军经验§!"
+
+ bt_navy_exp_gain_unit_idea:0 "舰船经验"
+ bt_navy_exp_gain_unit_factor_idea:0 "§C舰船经验§!"
+ 
+ # 空军经验 buffer 
+ bt_air_exp_gain_idea:0 "空军经验"
+ bt_air_exp_gain_factor_idea:0 "§C空军经验§!"
+ bt_air_exp_gain_training_xp_idea:0 "空军训练经验"
+ bt_air_ace_generation_chance_idea:0 "空军王牌出现"
+
+ # 指挥点 buffer 组
+ bt_military_command_gain_idea:0 "指挥点"
+ bt_military_command_gain_mult_idea:0 "§C指挥点§!"
+  
+ # 装备 buffer 组
+ bt_equipment_capture_factor_idea:0 "§C缴获装备§!" 
+ bt_equipment_conversion_speed_idea:0 "装备转换速度"
+ bt_equipment_refit_speed_idea:0 "装备改装速度"
+ bt_equipment_navy_refit_speed_idea:0 "海军装备改装速度"
+
+ # ------------------------------------------------------- #
+ # 燃油组
+ # 燃油消耗
+  
+ # 燃油增长
+ bt_fuel_gain_idea:0 "燃油增长"
+ bt_fuel_gain_factor_idea:0 "§C燃油增长§!"
+ bt_fuel_base_gain_idea:0 "基础燃油增长"
+ bt_fuel_base_gain_factor_idea:0 "§C基础燃油增长§!"
+ bt_fuel_max_gain_idea:0 "燃油容量增长"
+ bt_fuel_max_gain_factor_idea:0 "§C燃油容量增长§!"
+
+
+ # ------------------------------------------------------- #
+ # 情报组
+ bt_intelligence_intel_network_gain_idea:0 "情报网强度增长"
+ bt_intelligence_intel_network_gain_factor_idea:0 "§C情报网强度增长§!"
+ # bt_intelligence_extract_intel_rate_idea:0 "获得敌方情报速率"
+ bt_intelligence_cryption_factor_idea:0 "加密解密加速"
+
+ 
+ # ------------------------------------------------------- #
+ # 战斗组
+ # 陆战组
+ bt_land_combat_attack_idea:0 "陆军攻击力"
+ bt_land_combat_defence_idea:0 "陆军防御力"
+ bt_land_combat_core_ad_idea:0 "陆军核心领土攻防"
+ bt_land_combat_org_regain_idea:0 "§C陆军组织度恢复§!"
+
+
+
+ # 海战组
+ bt_naval_combat_enhance_idea:0 "海军增强"
+ 
+ # 空战组
+ bt_air_combat_attack_idea:0 "空军攻击力"
+
+ 
+
