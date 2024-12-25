@@ -1,6 +1,6 @@
-version="5.0"
+version="6.0"
 tags={
 	"Utilities"
 }
 name="HOI4AddBuffers"
-supported_version="1.14.*"
+supported_version="1.15.*"
